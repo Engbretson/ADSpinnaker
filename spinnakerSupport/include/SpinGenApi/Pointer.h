@@ -1,5 +1,5 @@
 //=============================================================================
-// Copyright © 2017 FLIR Integrated Imaging Solutions, Inc. All Rights Reserved.
+// Copyright (c) 2001-2018 FLIR Systems, Inc. All Rights Reserved.
 //
 // This software is the confidential and proprietary information of FLIR
 // Integrated Imaging Solutions, Inc. ("Confidential Information"). You
@@ -107,7 +107,7 @@ namespace Spinnaker
             */
             operator T*(void) const
             {
-                if (NULL == m_pT)
+                if (nullptr == m_pT)
                 {
                     throw Spinnaker::Exception(__LINE__, __FILE__, __FUNCTION__, __DATE__, __TIME__, "LogicalErrorException NULL pointer dereferenced", GENICAM_ERR_LOGICAL);
                 }
@@ -119,7 +119,7 @@ namespace Spinnaker
             */
             T& operator*(void) const
             {
-                if (NULL == m_pT)
+                if (nullptr == m_pT)
                 {
                     throw Spinnaker::Exception(__LINE__, __FILE__, __FUNCTION__, __DATE__, __TIME__, "LogicalErrorException NULL pointer dereferenced", GENICAM_ERR_LOGICAL);
                 }
@@ -131,7 +131,7 @@ namespace Spinnaker
             */
             T& operator()(void) const
             {
-                if (NULL == m_pT)
+                if (nullptr == m_pT)
                 {
                     throw Spinnaker::Exception(__LINE__, __FILE__, __FUNCTION__, __DATE__, __TIME__, "LogicalErrorException NULL pointer dereferenced", GENICAM_ERR_LOGICAL);
                 }
@@ -143,7 +143,7 @@ namespace Spinnaker
             */
             T* operator->(void) const
             {
-                if (NULL == m_pT)
+                if (nullptr == m_pT)
                 {
                     throw Spinnaker::Exception(__LINE__, __FILE__, __FUNCTION__, __DATE__, __TIME__, "LogicalErrorException NULL pointer dereferenced", GENICAM_ERR_LOGICAL);
                 }
@@ -155,7 +155,7 @@ namespace Spinnaker
             */
             bool IsValid() const throw()
             {
-                return m_pT != NULL;
+                return m_pT != nullptr;
             }
 
             /**
@@ -163,7 +163,7 @@ namespace Spinnaker
             */
             operator bool(void) const throw()
             {
-                return m_pT != NULL;
+                return m_pT != nullptr;
             }
 
             /**
@@ -192,6 +192,46 @@ namespace Spinnaker
                     throw Spinnaker::Exception(__LINE__, __FILE__, __FUNCTION__, __DATE__, __TIME__, "LogicalErrorException argument must be NULL", GENICAM_ERR_LOGICAL);
                 }
                 return NULL == m_pT;
+            }
+
+            /**
+            * pointer inequal
+            */
+            bool operator!=(const CPointer<T, B> &rT) const
+            {
+                return m_pT != rT.m_pT;
+            }
+
+            /**
+            * pointer inequal
+            */
+            bool operator!=(T* pT) const
+            {
+                return m_pT != pT;
+            }
+
+            /**
+            * pointer inequal
+            */
+            bool operator!=(const long int nMustBeNull) const
+            {
+                if (0 != nMustBeNull)
+                {
+                    throw Spinnaker::Exception(__LINE__, __FILE__, __FUNCTION__, __DATE__, __TIME__, "LogicalErrorException argument must be NULL", GENICAM_ERR_LOGICAL);
+                }
+                return NULL != m_pT;
+            }
+
+            /**
+            * pointer inequal
+            */
+            bool operator!=(const int nMustBeNull) const
+            {
+                if (0 != nMustBeNull)
+                {
+                    throw Spinnaker::Exception(__LINE__, __FILE__, __FUNCTION__, __DATE__, __TIME__, "LogicalErrorException argument must be NULL", GENICAM_ERR_LOGICAL);
+                }
+                return NULL != m_pT;
             }
 
         protected:

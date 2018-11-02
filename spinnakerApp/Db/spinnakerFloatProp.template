@@ -3,7 +3,7 @@ record(ao, "$(P)$(R)$(PROP)") {
   field(PINI, "$(PINI=YES)")
   field(DTYP, "asynFloat64")
   field(OUT,  "@asyn($(PORT) 0)$(PN)")
-  field(PREC, "$(PREC=3)")
+  field(PREC, "$(PREC=5)")
   field(VAL, "$(VAL=0)")
   info(asyn:READBACK, "$(READBACK=0)")
 }
@@ -11,7 +11,7 @@ record(ao, "$(P)$(R)$(PROP)") {
 record(ai, "$(P)$(R)$(PROP)_RBV") {
   field(DTYP, "asynFloat64")
   field(INP,  "@asyn($(PORT) 0)$(PN)")
-  field(PREC, "$(PREC=3)")
+  field(PREC, "$(PREC=5)")
   field(SCAN, "I/O Intr")
 }
 

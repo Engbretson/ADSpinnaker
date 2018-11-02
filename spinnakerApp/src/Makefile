@@ -19,7 +19,7 @@ LIB_LIBS_Linux  += Spinnaker
 DBD += ADSpinnakerSupport.dbd
 
 USR_INCLUDES += -I ../../../spinnakerSupport/include
-USR_CXXFLAGS_Linux += -D LINUX
+USR_CXXFLAGS_Linux += -D LINUX 
 USR_CXXFLAGS_Linux += -std=c++11 -Wno-unknown-pragmas
 
 #PROD_IOC_Linux += MeasureTemperature

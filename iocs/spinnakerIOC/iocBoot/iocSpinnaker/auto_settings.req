@@ -1,3 +1,6 @@
 file "spinnaker_settings.req",            P=$(P),  R=cam1:
 file "NDStdArrays_settings.req",          P=$(P),  R=image1:
 file "commonPlugin_settings.req",         P=$(P)
+2bmbSP1:cam1:FrameType.ZRST
+2bmbSP1:cam1:FrameType.ONST
+2bmbSP1:cam1:FrameType.TWST

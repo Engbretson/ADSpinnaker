@@ -75,6 +75,8 @@ typedef struct _spinChunkData
     double m_scan3dAxisMax;
     double m_scan3dTransformValue;
     double m_scan3dCoordinateReferenceValue;
+    int64_t m_inferenceResult;
+    double m_inferenceConfidence;
 } spinChunkData;
 
 /*@}*/

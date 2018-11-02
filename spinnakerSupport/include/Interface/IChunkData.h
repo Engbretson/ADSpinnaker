@@ -21,7 +21,7 @@
 #define PGR_SPINNAKER_ICHUNKDATA_H
 
 #include "SpinGenApi/GCTypes.h"
-#include "SpinGenApi/SpinnakerGenApi.h"
+#include "SpinGenApi/INodeMap.h"
 #include "CameraDefs.h"
 
 namespace Spinnaker
@@ -81,6 +81,8 @@ namespace Spinnaker
         virtual float64_t GetScan3dAxisMax() const = 0;
         virtual float64_t GetScan3dTransformValue() const = 0;
         virtual float64_t GetScan3dCoordinateReferenceValue() const = 0;
+        virtual int64_t GetInferenceResult() const = 0;
+        virtual float64_t GetInferenceConfidence() const = 0;
 
     protected:
         IChunkData() {};
