@@ -39,7 +39,7 @@ using namespace std;
 
 #define DRIVER_VERSION      1
 #define DRIVER_REVISION     0
-#define DRIVER_MODIFICATION 0
+#define DRIVER_MODIFICATION 1
 
 static const char *driverName = "ADSpinnaker";
 
@@ -125,6 +125,7 @@ public:
   
 private:
     epicsMessageQueue *pMsgQ_;
+  
 
 };
 
@@ -147,6 +148,7 @@ public:
     /**< These should be private but are called from C callback functions, must be public. */
     void imageGrabTask();
     void shutdown();
+    int STOP_ME = 0;
 
 protected:
     int SPVideoMode;
@@ -818,6 +820,20 @@ ADSpinnaker::ADSpinnaker(const char *portName, int cameraId, int traceMask, int 
     // Retrieve singleton reference to system object
     system_ = System::GetInstance();
 
+   // Print application build information
+    cout << "Application build date: " << __DATE__ << " " << __TIME__ << endl << endl;
+    
+
+    // Print out current library version
+    const LibraryVersion spinnakerLibraryVersion = system_->GetLibraryVersion();
+    cout << "Spinnaker library version: "
+        << spinnakerLibraryVersion.major << "."
+        << spinnakerLibraryVersion.minor << "."
+        << spinnakerLibraryVersion.type << "."
+        << spinnakerLibraryVersion.build << endl << endl;
+
+
+
     status = connectCamera();
     if (status) {
         asynPrint(pasynUserSelf, ASYN_TRACE_ERROR,
@@ -1023,10 +1039,45 @@ asynStatus ADSpinnaker::connectCamera(void)
 
     epicsSnprintf(tempString, sizeof(tempString), "%d.%d.%d", 
                   DRIVER_VERSION, DRIVER_REVISION, DRIVER_MODIFICATION);
+
     setStringParam(NDDriverVersion,tempString);
+
+///
+
+  
+    int AdcBitDepth = pCamera_->AdcBitDepth.GetValue();
+    printf("\n\n\nAdcBitDepth was = %d, resetting to 0\n",AdcBitDepth);
+    pCamera_->AdcBitDepth.SetIntValue(0);
+
+    pCamera_->LineSelector.SetIntValue(2);
+    
+    int LineSelector = pCamera_->LineSelector.GetValue();
+    printf("LineSelector was = %d \n",LineSelector);
+    int LineMode = pCamera_->LineMode.GetValue();
+    printf("LineMode was = %d \n",LineMode);
+   // bool V3_3Enable = pCamera_->V3_3Enable.GetValue();
+   // printf("V3_3Enable was = %d \n",V3_3Enable);
+    int LineInverter = pCamera_->LineInverter.GetValue();
+    printf("LineInverter was = %d \n",LineInverter);
+    int LineStatus = pCamera_->LineStatus.GetValue();
+    printf("LineStatus was = %d \n",LineStatus);
+    int LineStatusAll = pCamera_->LineStatusAll.GetValue();
+    printf("LineStatusAll was = %d \n",LineStatusAll); 
+    int LineFormat = pCamera_->LineFormat.GetValue();
+    printf("LineFormat was = %d \n",LineFormat);
+    int UserOutputSelector = pCamera_->UserOutputSelector.GetValue();
+    printf("UserOutputSelector was = %d \n",UserOutputSelector);
+    printf("\n\n\n");
+
+    system_ = System::GetInstance();
+    const LibraryVersion version = system_->GetLibraryVersion();
+    epicsSnprintf(tempString, sizeof(tempString), "%d.%d.%d", version.major, version.minor, version.type);
+    setStringParam(ADSDKVersion, tempString);
+
+///
  
 /*   
-    Utilities::GetLibraryVersion(&version);
+    GetLibraryVersion(&version);
     epicsSnprintf(tempString, sizeof(tempString), "%d.%d.%d", version.major, version.minor, version.type);
     asynPrint(pasynUserSelf, ASYN_TRACE_WARNING,
         "%s::%s called Utilities::GetLibraryVersion, version=%s\n",
@@ -1130,8 +1181,9 @@ void ADSpinnaker::imageGrabTask()
         pRaw_ = NULL;
 
         // See if acquisition is done if we are in single or multiple mode
-        if ((imageMode == ADImageSingle) || ((imageMode == ADImageMultiple) && (numImagesCounter >= numImages))) {
+        if (( STOP_ME == 1) || (imageMode == ADImageSingle) || ((imageMode == ADImageMultiple) && (numImagesCounter >= numImages))) {
             setIntegerParam(ADStatus, ADStatusIdle);
+	    STOP_ME = 0;
             status = stopCapture();
         }
         callParamCallbacks();
@@ -1448,8 +1500,10 @@ asynStatus ADSpinnaker::writeInt32( asynUser *pasynUser, epicsInt32 value)
     if (function == ADAcquire) {
         if (value) {
             // start acquisition
+            STOP_ME = 0;
             status = startCapture();
         } else {
+            STOP_ME = 1;
             status = stopCapture();
         }
 
@@ -1637,6 +1691,7 @@ asynStatus ADSpinnaker::stopCapture()
     static const char *functionName = "stopCapture";
 
     setIntegerParam(ADAcquire, 0);
+ //   callParamCallbacks();
     setShutter(0);
     // Need to wait for the task to set the status to idle
     while (1) {
@@ -1646,19 +1701,31 @@ asynStatus ADSpinnaker::stopCapture()
         epicsThreadSleep(.1);
         lock();
     }
-    try {
-        pCamera_->EndAcquisition();
+
+   try {
+
+//printf("In the start of try block \n");
+ //      ImagePtr pImage;
+ //       pCamera_->AcquisitionStop(); 
+ //     pCamera_->TransferStop();  
+      pCamera_->EndAcquisition();
+//        pCamera_->AcquisitionStart(); 
+//printf(" after \n");
         ImagePtr pImage;
         // Need to empty the message queue it could have some images in it
         while(pCallbackMsgQ_->tryReceive(&pImage, sizeof(pImage)) != -1) {
+		printf(".");
         }
+//	printf("At the end of the try block \n");
     }
     catch (Spinnaker::Exception &e) {
+//      printf("in the catch block \n");
       asynPrint(pasynUserSelf, ASYN_TRACE_ERROR, 
           "%s::%s exception %s\n",
           driverName, functionName, e.what());
       return asynError;
     }
+//    printf(" at end of stopAcquire \n");
     return asynSuccess;
 }
 

@@ -253,6 +253,18 @@ namespace Spinnaker
          */
         float64_t GetScan3dCoordinateReferenceValue() const;
 
+        /**
+         * Description: 
+         * Visibility: Expert
+         */
+        int64_t GetInferenceResult() const;
+
+        /**
+         * Description: 
+         * Visibility: Expert
+         */
+        float64_t GetInferenceConfidence() const;
+
     private:
         float64_t m_blackLevel;
         int64_t m_frameID;
@@ -288,6 +300,8 @@ namespace Spinnaker
         float64_t m_scan3dAxisMax;
         float64_t m_scan3dTransformValue;
         float64_t m_scan3dCoordinateReferenceValue;
+        int64_t m_inferenceResult;
+        float64_t m_inferenceConfidence;
 
     };
     /*@}*/
