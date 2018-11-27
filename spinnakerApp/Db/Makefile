@@ -20,6 +20,7 @@ DB += spinnakerMenuProp.template
 DB += spinnakerCmdProp.template
 DB += spinnakerPropAuto.template
 DB += spinnakerPropEnable.template
+DB += oryx.template
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
