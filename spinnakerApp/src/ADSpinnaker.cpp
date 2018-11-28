@@ -187,6 +187,7 @@ protected:
     int SPTimeStampMode;
     int SPUniqueIdMode;
     int SPColorProcessEnabled;
+#include "oryx_1.inc"
 
 //    int PGPacketSize;             /** Size of data packets from camera                (int32 write/read) */
 //    int PGPacketSizeActual;       /** Size of data packets from camera                (int32 write/read) */
@@ -916,6 +917,8 @@ ADSpinnaker::ADSpinnaker(const char *portName, int cameraId, int traceMask, int 
     createParam("SP_TIME_STAMP_MODE",          asynParamInt32,   &SPTimeStampMode);
     createParam("SP_UNIQUE_ID_MODE",           asynParamInt32,   &SPUniqueIdMode);
     createSPProperty(&SPColorProcessEnabled,   asynParamInt32,   "SP_COLOR_PROCESS_ENABLED",     "OnBoardColorProcessEnabled");
+
+#include "oryx_5.inc"
 
     updateSPProperties();
 
