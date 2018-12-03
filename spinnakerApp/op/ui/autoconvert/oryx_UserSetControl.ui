@@ -222,7 +222,11 @@ border-radius: 2px;
                     <x>160</x>
                     <y>10</y>
                     <width>150</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
         </widget>
@@ -258,7 +262,11 @@ border-radius: 2px;
                     <x>160</x>
                     <y>55</y>
                     <width>100</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
         </widget>
@@ -268,7 +276,11 @@ border-radius: 2px;
                     <x>270</x>
                     <y>55</y>
                     <width>125</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
             <property name="channel">
@@ -324,7 +336,11 @@ border-radius: 2px;
                     <x>160</x>
                     <y>80</y>
                     <width>100</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
         </widget>
@@ -334,7 +350,11 @@ border-radius: 2px;
                     <x>270</x>
                     <y>80</y>
                     <width>125</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
             <property name="fontScaleMode">
@@ -402,7 +422,11 @@ border-radius: 2px;
                     <x>160</x>
                     <y>105</y>
                     <width>100</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
         </widget>
@@ -412,7 +436,11 @@ border-radius: 2px;
                     <x>270</x>
                     <y>105</y>
                     <width>125</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
             <property name="fontScaleMode">
@@ -480,7 +508,11 @@ border-radius: 2px;
                     <x>160</x>
                     <y>130</y>
                     <width>100</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
         </widget>
@@ -490,7 +522,11 @@ border-radius: 2px;
                     <x>270</x>
                     <y>130</y>
                     <width>125</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
             <property name="channel">
@@ -546,7 +582,11 @@ border-radius: 2px;
                     <x>160</x>
                     <y>155</y>
                     <width>100</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
         </widget>
@@ -556,7 +596,11 @@ border-radius: 2px;
                     <x>270</x>
                     <y>155</y>
                     <width>125</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
             <property name="channel">
@@ -612,7 +656,11 @@ border-radius: 2px;
                     <x>160</x>
                     <y>180</y>
                     <width>100</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
         </widget>
@@ -622,7 +670,11 @@ border-radius: 2px;
                     <x>270</x>
                     <y>180</y>
                     <width>125</width>
+<<<<<<< HEAD
                     <height>20</height>
+=======
+                    <height>15</height>
+>>>>>>> 80a0e603cf4a96e981032fe4bdc7a668299f5284
                 </rect>
             </property>
             <property name="channel">
