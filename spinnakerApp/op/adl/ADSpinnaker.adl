@@ -1,6 +1,6 @@
 
 file {
-	name="Z:\epics\synApps_6_0\support\areaDetector-R3-3-2\ADSpinnaker\spinnakerApp\op\adl\ADSpinnaker.adl"
+	name="\\s2dserv\xorApps\epics\synApps_6_0\ADSpinnaker\spinnakerApp\op\adl\ADSpinnaker.adl"
 	version=030109
 }
 display {
@@ -2130,7 +2130,7 @@ text {
 text {
 	object {
 		x=458
-		y=884
+		y=900
 		width=40
 		height=20
 	}
@@ -2143,7 +2143,7 @@ text {
 "related display" {
 	object {
 		x=504
-		y=884
+		y=900
 		width=80
 		height=20
 	}
