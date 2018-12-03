@@ -1,6 +1,10 @@
 
 file {
+<<<<<<< HEAD
 	name="Z:\epics_working\synApps_6_0\areaDetector-R3-3-2\OTHER\ADSpinnaker\spinnakerApp\op\adl\ADSpinnaker.adl"
+=======
+	name="\\s2dserv\xorApps\epics\synApps_6_0\ADSpinnaker\spinnakerApp\op\adl\ADSpinnaker.adl"
+>>>>>>> e5a6c2361126ed3e8cc0a6e807635508f060dafb
 	version=030109
 }
 display {
@@ -1666,8 +1670,13 @@ text {
 }
 text {
 	object {
+<<<<<<< HEAD
 		x=477
 		y=728
+=======
+		x=458
+		y=900
+>>>>>>> e5a6c2361126ed3e8cc0a6e807635508f060dafb
 		width=40
 		height=20
 	}
@@ -1679,8 +1688,13 @@ text {
 }
 "related display" {
 	object {
+<<<<<<< HEAD
 		x=523
 		y=728
+=======
+		x=504
+		y=900
+>>>>>>> e5a6c2361126ed3e8cc0a6e807635508f060dafb
 		width=80
 		height=20
 	}
