@@ -1,9 +1,9 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 181203-125633
-2bmbSP1:cam1:Acquire 1
-2bmbSP1:cam1:AcquireBusy 1
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 181203-150344
+2bmbSP1:cam1:Acquire 0
+2bmbSP1:cam1:AcquireBusy 0
 2bmbSP1:cam1:AcquirePeriod 0.00616272
 2bmbSP1:cam1:AcquirePeriod_RBV 0.00616272
-2bmbSP1:cam1:Acquire_RBV 1
+2bmbSP1:cam1:Acquire_RBV 0
 2bmbSP1:cam1:AcquireTime 0.01
 2bmbSP1:cam1:AcquireTimeAuto 0
 2bmbSP1:cam1:AcquireTimeAuto_RBV 2
@@ -63,14 +63,14 @@
 2bmbSP1:cam1:BlackLevel_MIN -5.0000011920929
 2bmbSP1:cam1:BlackLevel_RBV 0
 2bmbSP1:cam1:BufferUnderrunCount 0
-2bmbSP1:cam1:ClearAcquireBusy 1
+2bmbSP1:cam1:ClearAcquireBusy 0
 2bmbSP1:cam1:ColorMode 0
 2bmbSP1:cam1:ColorMode_RBV 0
 2bmbSP1:cam1:ConvertPixelFormat 0
 2bmbSP1:cam1:ConvertPixelFormat_RBV 0
 2bmbSP1:cam1:DataType 0
 2bmbSP1:cam1:DataType_RBV 0
-2bmbSP1:cam1:DetectorState_RBV 7
+2bmbSP1:cam1:DetectorState_RBV 0
 2bmbSP1:cam1:Dim0SA 
 2bmbSP1:cam1:Dim0SA_RBV 
 2bmbSP1:cam1:Dim1SA 
@@ -154,9 +154,9 @@
 2bmbSP1:cam1:NumExposures 20
 2bmbSP1:cam1:NumExposuresCounter_RBV 0
 2bmbSP1:cam1:NumExposures_RBV 20
-2bmbSP1:cam1:NumImages 1
+2bmbSP1:cam1:NumImages 300
 2bmbSP1:cam1:NumImagesCounter_RBV 0
-2bmbSP1:cam1:NumImages_RBV 2
+2bmbSP1:cam1:NumImages_RBV 300
 2bmbSP1:cam1:NumQueuedArrays 0
 2bmbSP1:cam1:PixelFormat 0
 2bmbSP1:cam1:PixelFormat_RBV 0
@@ -183,7 +183,7 @@
 2bmbSP1:cam1:Saturation_RBV 0
 2bmbSP1:cam1:SDKVersion_RBV 1.18.0
 2bmbSP1:cam1:SerialNumber_RBV 18092474
-2bmbSP1:cam1:SetAcquireBusy 1
+2bmbSP1:cam1:SetAcquireBusy 0
 2bmbSP1:cam1:Sharpening 0
 2bmbSP1:cam1:SharpeningAuto 0
 2bmbSP1:cam1:SharpeningAuto_RBV 0
@@ -214,7 +214,7 @@
 2bmbSP1:cam1:SizeX_RBV 2448
 2bmbSP1:cam1:SizeY 2048
 2bmbSP1:cam1:SizeY_RBV 2048
-2bmbSP1:cam1:SoftwareTrigger 1
+2bmbSP1:cam1:SoftwareTrigger 0
 2bmbSP1:cam1:StatusMessage_RBV 0
 2bmbSP1:cam1:StringFromServer_RBV @array@ { "60" "110" "111" "116" "32" "117" "115" "101" "100" "32" "98" "121" "32" "100" "114" "105" "118" "101" "114" "62" "0" }
 2bmbSP1:cam1:StringToServer_RBV @array@ { "60" "110" "111" "116" "32" "117" "115" "101" "100" "32" "98" "121" "32" "100" "114" "105" "118" "101" "114" "62" "0" }
@@ -240,8 +240,8 @@
 2bmbSP1:cam1:TriggerDelay_RBV 7e-06
 2bmbSP1:cam1:TriggerMode 1
 2bmbSP1:cam1:TriggerMode_RBV 1
-2bmbSP1:cam1:TriggerOverlap 1
-2bmbSP1:cam1:TriggerOverlap_RBV 1
+2bmbSP1:cam1:TriggerOverlap 0
+2bmbSP1:cam1:TriggerOverlap_RBV 0
 2bmbSP1:cam1:TriggerSource 2
 2bmbSP1:cam1:TriggerSource_RBV 2
 2bmbSP1:cam1:UniqueIdMode 0

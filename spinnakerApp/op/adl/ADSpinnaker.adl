@@ -1,17 +1,17 @@
 
 file {
-	name="Z:\epics\synApps_6_0\support\areaDetector-R3-3-2\ADSpinnaker\spinnakerApp\op\adl\ADSpinnaker.adl"
+	name="Z:\epics_working\synApps_6_0\areaDetector-R3-3-2\OTHER\ADSpinnaker\spinnakerApp\op\adl\ADSpinnaker.adl"
 	version=030109
 }
 display {
 	object {
-		x=310
-		y=53
+		x=188
+		y=96
 		width=1070
 		height=925
 	}
-	clr=5
-	bclr=5
+	clr=14
+	bclr=4
 	cmap=""
 	gridSpacing=5
 	gridOn=0
@@ -143,8 +143,8 @@ composite {
 }
 composite {
 	object {
-		x=360
-		y=735
+		x=715
+		y=540
 		width=350
 		height=160
 	}
@@ -298,16 +298,15 @@ text {
 "text update" {
 	object {
 		x=884
-		y=192
+		y=191
 		width=120
-		height=16
+		height=18
 	}
 	monitor {
 		chan="$(P)$(R)TemperatureActual"
 		clr=54
 		bclr=4
 	}
-	format="string"
 	limits {
 	}
 }
@@ -340,16 +339,15 @@ text {
 "text update" {
 	object {
 		x=884
-		y=92
+		y=91
 		width=120
-		height=16
+		height=18
 	}
 	monitor {
 		chan="$(P)$(R)TransmitFailureCount"
 		clr=54
 		bclr=4
 	}
-	format="string"
 	limits {
 	}
 }
@@ -369,16 +367,15 @@ text {
 "text update" {
 	object {
 		x=884
-		y=117
+		y=116
 		width=120
-		height=16
+		height=18
 	}
 	monitor {
 		chan="$(P)$(R)BufferUnderrunCount"
 		clr=54
 		bclr=4
 	}
-	format="string"
 	limits {
 	}
 }
@@ -398,16 +395,15 @@ text {
 "text update" {
 	object {
 		x=884
-		y=142
+		y=141
 		width=120
-		height=16
+		height=18
 	}
 	monitor {
 		chan="$(P)$(R)FailedBufferCount"
 		clr=54
 		bclr=4
 	}
-	format="string"
 	limits {
 	}
 }
@@ -427,471 +423,12 @@ text {
 "text update" {
 	object {
 		x=884
-		y=167
+		y=166
 		width=120
-		height=16
+		height=18
 	}
 	monitor {
 		chan="$(P)$(R)FailedPacketCount"
-		clr=54
-		bclr=4
-	}
-	format="string"
-	limits {
-	}
-}
-rectangle {
-	object {
-		x=837
-		y=542
-		width=107
-		height=21
-	}
-	"basic attribute" {
-		clr=2
-	}
-}
-text {
-	object {
-		x=860
-		y=543
-		width=60
-		height=20
-	}
-	"basic attribute" {
-		clr=54
-	}
-	textix="Strobe"
-	align="horiz. centered"
-}
-rectangle {
-	object {
-		x=715
-		y=540
-		width=350
-		height=155
-	}
-	"basic attribute" {
-		clr=14
-		fill="outline"
-	}
-}
-text {
-	object {
-		x=770
-		y=645
-		width=120
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Strobe delay"
-	align="horiz. right"
-}
-"text entry" {
-	object {
-		x=895
-		y=645
-		width=80
-		height=20
-	}
-	control {
-		chan="$(P)$(R)StrobeDelay"
-		clr=14
-		bclr=51
-	}
-	format="exponential"
-	limits {
-	}
-}
-"text update" {
-	object {
-		x=980
-		y=646
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)StrobeDelay_RBV"
-		clr=54
-		bclr=4
-	}
-	format="exponential"
-	limits {
-	}
-}
-text {
-	object {
-		x=759
-		y=570
-		width=130
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Strobe source"
-	align="horiz. right"
-}
-menu {
-	object {
-		x=894
-		y=570
-		width=80
-		height=20
-	}
-	control {
-		chan="$(P)$(R)StrobeSource"
-		clr=14
-		bclr=51
-	}
-}
-"text update" {
-	object {
-		x=979
-		y=571
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)StrobeSource_RBV"
-		clr=54
-		bclr=4
-	}
-	format="string"
-	limits {
-	}
-}
-text {
-	object {
-		x=760
-		y=595
-		width=130
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Strobe enable"
-	align="horiz. right"
-}
-menu {
-	object {
-		x=895
-		y=595
-		width=80
-		height=20
-	}
-	control {
-		chan="$(P)$(R)StrobeEnable"
-		clr=14
-		bclr=51
-	}
-}
-"text update" {
-	object {
-		x=980
-		y=596
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)StrobeEnable_RBV"
-		clr=54
-		bclr=4
-	}
-	format="string"
-	limits {
-	}
-}
-text {
-	object {
-		x=740
-		y=620
-		width=150
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Strobe polarity"
-	align="horiz. right"
-}
-menu {
-	object {
-		x=895
-		y=620
-		width=80
-		height=20
-	}
-	control {
-		chan="$(P)$(R)StrobePolarity"
-		clr=14
-		bclr=51
-	}
-}
-"text update" {
-	object {
-		x=980
-		y=621
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)StrobePolarity_RBV"
-		clr=54
-		bclr=4
-	}
-	format="string"
-	limits {
-	}
-}
-text {
-	object {
-		x=740
-		y=670
-		width=150
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Strobe duration"
-	align="horiz. right"
-}
-"text entry" {
-	object {
-		x=895
-		y=670
-		width=80
-		height=20
-	}
-	control {
-		chan="$(P)$(R)StrobeDuration"
-		clr=14
-		bclr=51
-	}
-	format="exponential"
-	limits {
-	}
-}
-"text update" {
-	object {
-		x=980
-		y=671
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)StrobeDuration_RBV"
-		clr=54
-		bclr=4
-	}
-	format="exponential"
-	limits {
-	}
-}
-rectangle {
-	object {
-		x=790
-		y=702
-		width=200
-		height=21
-	}
-	"basic attribute" {
-		clr=2
-	}
-}
-text {
-	object {
-		x=806
-		y=703
-		width=170
-		height=20
-	}
-	"basic attribute" {
-		clr=54
-	}
-	textix="Bandwidth Control"
-	align="horiz. centered"
-}
-rectangle {
-	object {
-		x=715
-		y=700
-		width=350
-		height=155
-	}
-	"basic attribute" {
-		clr=14
-		fill="outline"
-	}
-}
-text {
-	object {
-		x=780
-		y=755
-		width=110
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Packet size"
-	align="horiz. right"
-}
-"text entry" {
-	object {
-		x=895
-		y=755
-		width=80
-		height=20
-	}
-	control {
-		chan="$(P)$(R)PacketSize"
-		clr=14
-		bclr=51
-	}
-	limits {
-	}
-}
-"text update" {
-	object {
-		x=980
-		y=756
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)PacketSize_RBV"
-		clr=54
-		bclr=4
-	}
-	limits {
-	}
-}
-text {
-	object {
-		x=720
-		y=805
-		width=170
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="GigE packet delay"
-	align="horiz. right"
-}
-"text entry" {
-	object {
-		x=895
-		y=805
-		width=80
-		height=20
-	}
-	control {
-		chan="$(P)$(R)PacketDelay"
-		clr=14
-		bclr=51
-	}
-	limits {
-	}
-}
-"text update" {
-	object {
-		x=980
-		y=806
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)PacketDelayActual"
-		clr=54
-		bclr=4
-	}
-	limits {
-	}
-}
-"text update" {
-	object {
-		x=895
-		y=831
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)Bandwidth"
-		clr=54
-		bclr=4
-	}
-	limits {
-	}
-}
-text {
-	object {
-		x=730
-		y=830
-		width=160
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Bandwidth (MB/s)"
-	align="horiz. right"
-}
-text {
-	object {
-		x=780
-		y=780
-		width=110
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Packet size"
-	align="horiz. right"
-}
-"text update" {
-	object {
-		x=895
-		y=781
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)PacketSizeActual"
-		clr=54
-		bclr=4
-	}
-	limits {
-	}
-}
-text {
-	object {
-		x=740
-		y=730
-		width=150
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Max packet size"
-	align="horiz. right"
-}
-"text update" {
-	object {
-		x=895
-		y=731
-		width=80
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)MaxPacketSize"
 		clr=54
 		bclr=4
 	}
@@ -2129,8 +1666,8 @@ text {
 }
 text {
 	object {
-		x=458
-		y=884
+		x=477
+		y=728
 		width=40
 		height=20
 	}
@@ -2142,8 +1679,8 @@ text {
 }
 "related display" {
 	object {
-		x=504
-		y=884
+		x=523
+		y=728
 		width=80
 		height=20
 	}
@@ -2590,223 +2127,13 @@ menu {
 		bclr=51
 	}
 }
-"text update" {
-	object {
-		x=950
-		y=486
-		width=110
-		height=18
-	}
-	monitor {
-		chan="$(P)$(R)ExposureMode_RBV"
-		clr=54
-		bclr=4
-	}
-	format="string"
-	limits {
-	}
-}
-"related display" {
-	object {
-		x=892
-		y=868
-		width=70
-		height=20
-	}
-	display[0] {
-		label="Acquisition Control"
-		name="oryx_AcquisitionControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[1] {
-		label="Analog Control"
-		name="oryx_AnalogControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[2] {
-		label="Auto Algorithm Control"
-		name="oryx_AutoAlgorithmControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[3] {
-		label="Chunk Data Control"
-		name="oryx_ChunkDataControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[4] {
-		label="Color Transformation Control"
-		name="oryx_ColorTransformationControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[5] {
-		label="Counter And Timer Control"
-		name="oryx_CounterAndTimerControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[6] {
-		label="Defective Pixel Correction"
-		name="oryx_DefectivePixelCorrection.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[7] {
-		label="Device Control 1"
-		name="oryx_DeviceControl1.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[8] {
-		label="Device Control 2"
-		name="oryx_DeviceControl2.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[9] {
-		label="Digital IO Control"
-		name="oryx_DigitalIOControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[10] {
-		label="Event Control"
-		name="oryx_EventControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[11] {
-		label="Event Error Data"
-		name="oryx_EventErrorData.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[12] {
-		label="Event Exposure End Data"
-		name="oryx_EventExposureEndData.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[13] {
-		label="Event Serial Port Receive Data"
-		name="oryx_EventSerialPortReceiveData.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[14] {
-		label="Event Test Data"
-		name="oryx_EventTestData.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[15] {
-		label="FFC User Table Contraol"
-		name="oryx_FfcUserTableControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	clr=14
-	bclr=51
-}
-text {
-	object {
-		x=724
-		y=868
-		width=160
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Oryx Setup #1"
-	align="horiz. right"
-}
-text {
-	object {
-		x=724
-		y=888
-		width=160
-		height=20
-	}
-	"basic attribute" {
-		clr=14
-	}
-	textix="Oryx Setup #2"
-	align="horiz. right"
-}
-"related display" {
-	object {
-		x=892
-		y=888
-		width=70
-		height=20
-	}
-	display[0] {
-		label="File Access Control"
-		name="oryx_FileAccessControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[1] {
-		label="Flat Field Correction Control"
-		name="oryx_FlatFieldCorrectionControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[2] {
-		label="GigE Vision 1"
-		name="oryx_GigEVision1.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[3] {
-		label="GigE Vision 2"
-		name="oryx_GigEVision2.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[4] {
-		label="Image Format Control"
-		name="oryx_ImageFormatControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[5] {
-		label="Logic Block Control"
-		name="oryx_LogicBlockControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[6] {
-		label="LUT Control"
-		name="oryx_LUTControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[7] {
-		label="Sequencer Control"
-		name="oryx_SequencerControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[8] {
-		label="Serial Port Control"
-		name="oryx_SerialPortControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[9] {
-		label="Test Control"
-		name="oryx_TestControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[10] {
-		label="Transfer Control "
-		name="oryx_TransferControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[11] {
-		label="Transport Layer Control"
-		name="oryx_TransportLayerControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	display[12] {
-		label="User Set Control"
-		name="oryx_UserSetControl.adl"
-		args="P=$(P),R=$(R)"
-	}
-	clr=14
-	bclr=51
-}
-rectangle {
+composite {
 	object {
 		x=716
-		y=858
+		y=715
 		width=280
 		height=80
 	}
-	"basic attribute" {
-		clr=3
-		style="dash"
-		fill="outline"
-	}
+	"composite name"=""
+	"composite file"="oryx_setup.adl"
 }

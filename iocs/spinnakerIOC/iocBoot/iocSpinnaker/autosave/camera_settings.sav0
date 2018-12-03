@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 181203-125632
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 181203-145343
 2bmbSP1:cam1:Acquire 0
 2bmbSP1:cam1:AcquireBusy 0
 2bmbSP1:cam1:AcquirePeriod 0.00616272
@@ -136,8 +136,8 @@
 2bmbSP1:cam1:Gamma_MAX 0
 2bmbSP1:cam1:Gamma_MIN 0
 2bmbSP1:cam1:Gamma_RBV 1
-2bmbSP1:cam1:ImageMode 0
-2bmbSP1:cam1:ImageMode_RBV 0
+2bmbSP1:cam1:ImageMode 1
+2bmbSP1:cam1:ImageMode_RBV 1
 2bmbSP1:cam1:Manufacturer_RBV FLIR
 2bmbSP1:cam1:MaxSizeX_RBV 2448
 2bmbSP1:cam1:MaxSizeY_RBV 2048
@@ -240,8 +240,8 @@
 2bmbSP1:cam1:TriggerDelay_RBV 7e-06
 2bmbSP1:cam1:TriggerMode 1
 2bmbSP1:cam1:TriggerMode_RBV 1
-2bmbSP1:cam1:TriggerOverlap 1
-2bmbSP1:cam1:TriggerOverlap_RBV 1
+2bmbSP1:cam1:TriggerOverlap 0
+2bmbSP1:cam1:TriggerOverlap_RBV 0
 2bmbSP1:cam1:TriggerSource 2
 2bmbSP1:cam1:TriggerSource_RBV 2
 2bmbSP1:cam1:UniqueIdMode 0
