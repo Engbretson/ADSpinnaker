@@ -130,7 +130,7 @@ text {
 	x=160
 	y=10
 	width=150 
-	height=15
+	height=20
 	}
 	"basic attribute" {
 		clr=14
@@ -144,7 +144,7 @@ text {
 	    x=160
 	    y=55
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -158,7 +158,7 @@ menu {
 	    x=270
 	    y=55
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)DeviceScanType"
@@ -172,7 +172,7 @@ text {
 	    x=160
 	    y=80
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -186,7 +186,7 @@ text {
 	    x=270
 	    y=80
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)DeviceVendorName_RBV"   
@@ -203,7 +203,7 @@ text {
 	    x=160
 	    y=105
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -217,7 +217,7 @@ text {
 	    x=270
 	    y=105
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)DeviceModelName_RBV"   
@@ -234,7 +234,7 @@ text {
 	    x=160
 	    y=130
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -248,7 +248,7 @@ text {
 	    x=270
 	    y=130
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)SensorDescription_RBV"   
@@ -265,7 +265,7 @@ text {
 	    x=160
 	    y=155
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -279,7 +279,7 @@ text {
 	    x=270
 	    y=155
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)DeviceManufacturerInfo_RBV"   
@@ -296,7 +296,7 @@ text {
 	    x=160
 	    y=180
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -310,7 +310,7 @@ text {
 	    x=270
 	    y=180
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)DeviceVersion_RBV"   
@@ -327,7 +327,7 @@ text {
 	    x=160
 	    y=205
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -341,7 +341,7 @@ text {
 	    x=270
 	    y=205
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)DeviceFirmwareVersion_RBV"   
@@ -358,7 +358,7 @@ text {
 	    x=160
 	    y=230
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -372,7 +372,7 @@ text {
 	    x=270
 	    y=230
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)DeviceSerialNumber_RBV"   
@@ -389,7 +389,7 @@ text {
 	    x=160
 	    y=255
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -403,7 +403,7 @@ text {
 	    x=270
 	    y=255
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)DeviceID_RBV"   
@@ -420,7 +420,7 @@ text {
 	    x=160
 	    y=280
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -434,7 +434,7 @@ text {
 	    x=270
 	    y=280
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)DeviceUserID_RBV"   
@@ -451,7 +451,7 @@ text {
 	    x=160
 	    y=305
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -465,7 +465,7 @@ menu {
 	    x=270
 	    y=305
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)DeviceTLType"
@@ -479,7 +479,7 @@ text {
 	    x=160
 	    y=330
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -493,7 +493,7 @@ text {
 	    x=270
 	    y=330
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceTLVersionMajor"   
@@ -509,7 +509,7 @@ text {
 	    x=335
 	    y=330
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceTLVersionMajor_RBV"   
@@ -525,7 +525,7 @@ text {
 	    x=160
 	    y=355
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -539,7 +539,7 @@ text {
 	    x=270
 	    y=355
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceTLVersionMinor"   
@@ -555,7 +555,7 @@ text {
 	    x=335
 	    y=355
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceTLVersionMinor_RBV"   
@@ -571,7 +571,7 @@ text {
 	    x=160
 	    y=380
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -585,7 +585,7 @@ text {
 	    x=270
 	    y=380
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceMaxThroughput"   
@@ -601,7 +601,7 @@ text {
 	    x=335
 	    y=380
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceMaxThroughput_RBV"   
@@ -617,7 +617,7 @@ text {
 	    x=160
 	    y=405
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -631,7 +631,7 @@ text {
 	    x=270
 	    y=405
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceLinkSpeed"   
@@ -647,7 +647,7 @@ text {
 	    x=335
 	    y=405
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceLinkSpeed_RBV"   
@@ -663,7 +663,7 @@ text {
 	    x=160
 	    y=430
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -677,7 +677,7 @@ text {
 	    x=270
 	    y=430
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceLinkThroughputLimit"   
@@ -693,7 +693,7 @@ text {
 	    x=335
 	    y=430
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceLinkThroughputLimit_RBV"   
@@ -709,7 +709,7 @@ text {
 	    x=160
 	    y=455
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -723,7 +723,7 @@ text {
 	    x=270
 	    y=455
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceLinkBandwidthReserve"   
@@ -739,7 +739,7 @@ text {
 	    x=335
 	    y=455
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceLinkBandwidthReserve_RBV"   
@@ -755,7 +755,7 @@ text {
 	    x=160
 	    y=480
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -769,7 +769,7 @@ text {
 	    x=270
 	    y=480
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceLinkCurrentThroughput"   
@@ -785,7 +785,7 @@ text {
 	    x=335
 	    y=480
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceLinkCurrentThroughput_RBV"   
@@ -801,7 +801,7 @@ text {
 	    x=160
 	    y=505
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -815,7 +815,7 @@ text {
 	    x=270
 	    y=505
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceStreamChannelCount"   
@@ -831,7 +831,7 @@ text {
 	    x=335
 	    y=505
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceStreamChannelCount_RBV"   
@@ -847,7 +847,7 @@ text {
 	    x=160
 	    y=530
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -861,7 +861,7 @@ text {
 	    x=270
 	    y=530
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceEventChannelCount"   
@@ -877,7 +877,7 @@ text {
 	    x=335
 	    y=530
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceEventChannelCount_RBV"   
@@ -893,7 +893,7 @@ text {
 	    x=160
 	    y=555
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -907,7 +907,7 @@ menu {
 	    x=270
 	    y=555
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)DeviceCharacterSet"
@@ -921,7 +921,7 @@ text {
 	    x=160
 	    y=580
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -935,7 +935,7 @@ text {
 	    x=270
 	    y=580
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)DeviceReset.PROC"   
@@ -953,7 +953,7 @@ text {
 	    x=160
 	    y=605
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -967,7 +967,7 @@ menu {
 	    x=270
 	    y=605
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)DeviceIndicatorMode"
@@ -981,7 +981,7 @@ text {
 	    x=160
 	    y=630
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -995,7 +995,7 @@ menu {
 	    x=270
 	    y=630
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)DeviceRegistersEndianness"
@@ -1009,7 +1009,7 @@ text {
 	    x=160
 	    y=655
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1023,7 +1023,7 @@ menu {
 	    x=270
 	    y=655
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)DeviceTemperatureSelector"
@@ -1037,7 +1037,7 @@ text {
 	    x=160
 	    y=680
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1051,7 +1051,7 @@ text {
 	    x=270
 	    y=680
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)DeviceTemperature"   
@@ -1067,7 +1067,7 @@ text {
 	    x=335
 	    y=680
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)DeviceTemperature_RBV"   
@@ -1083,7 +1083,7 @@ text {
 	    x=160
 	    y=705
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1097,7 +1097,7 @@ text {
 	    x=270
 	    y=705
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)TimestampReset.PROC"   
@@ -1115,7 +1115,7 @@ text {
 	    x=160
 	    y=730
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1129,7 +1129,7 @@ text {
 	    x=270
 	    y=730
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)TimestampLatch.PROC"   
@@ -1147,7 +1147,7 @@ text {
 	    x=160
 	    y=755
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1161,7 +1161,7 @@ text {
 	    x=270
 	    y=755
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)TimestampLatchValue"   
@@ -1177,7 +1177,7 @@ text {
 	    x=335
 	    y=755
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)TimestampLatchValue_RBV"   
@@ -1193,7 +1193,7 @@ text {
 	    x=160
 	    y=780
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1207,7 +1207,7 @@ menu {
 	    x=270
 	    y=780
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)DevicePowerSupplySelector"
@@ -1221,7 +1221,7 @@ text {
 	    x=160
 	    y=805
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1235,7 +1235,7 @@ text {
 	    x=270
 	    y=805
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)PowerSupplyVoltage"   
@@ -1251,7 +1251,7 @@ text {
 	    x=335
 	    y=805
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)PowerSupplyVoltage_RBV"   
@@ -1267,7 +1267,7 @@ text {
 	    x=160
 	    y=830
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1281,7 +1281,7 @@ text {
 	    x=270
 	    y=830
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)PowerSupplyCurrent"   
@@ -1297,7 +1297,7 @@ text {
 	    x=335
 	    y=830
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)PowerSupplyCurrent_RBV"   

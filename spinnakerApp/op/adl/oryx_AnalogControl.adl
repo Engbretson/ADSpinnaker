@@ -130,7 +130,7 @@ text {
 	x=160
 	y=10
 	width=150 
-	height=15
+	height=20
 	}
 	"basic attribute" {
 		clr=14
@@ -144,7 +144,7 @@ text {
 	    x=160
 	    y=55
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -158,7 +158,7 @@ menu {
 	    x=270
 	    y=55
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GainSelector"
@@ -172,7 +172,7 @@ text {
 	    x=160
 	    y=80
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -186,7 +186,7 @@ text {
 	    x=270
 	    y=80
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)Gain"   
@@ -202,7 +202,7 @@ text {
 	    x=335
 	    y=80
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)Gain_RBV"   
@@ -218,7 +218,7 @@ text {
 	    x=160
 	    y=105
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -232,7 +232,7 @@ menu {
 	    x=270
 	    y=105
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GainAuto"
@@ -246,7 +246,7 @@ text {
 	    x=160
 	    y=130
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -260,7 +260,7 @@ menu {
 	    x=270
 	    y=130
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)BlackLevelSelector"
@@ -274,7 +274,7 @@ text {
 	    x=160
 	    y=155
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -288,7 +288,7 @@ text {
 	    x=270
 	    y=155
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)BlackLevelRaw"   
@@ -304,7 +304,7 @@ text {
 	    x=335
 	    y=155
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)BlackLevelRaw_RBV"   
@@ -320,7 +320,7 @@ text {
 	    x=160
 	    y=180
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -334,7 +334,7 @@ text {
 	    x=270
 	    y=180
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)BlackLevel"   
@@ -350,7 +350,7 @@ text {
 	    x=335
 	    y=180
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)BlackLevel_RBV"   
@@ -366,7 +366,7 @@ text {
 	    x=160
 	    y=205
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -380,7 +380,7 @@ menu {
 	    x=270
 	    y=205
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)BlackLevelClampingEnable"
@@ -394,7 +394,7 @@ text {
 	    x=160
 	    y=230
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -408,7 +408,7 @@ menu {
 	    x=270
 	    y=230
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)BalanceRatioSelector"
@@ -422,7 +422,7 @@ text {
 	    x=160
 	    y=255
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -436,7 +436,7 @@ text {
 	    x=270
 	    y=255
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)BalanceRatio"   
@@ -452,7 +452,7 @@ text {
 	    x=335
 	    y=255
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)BalanceRatio_RBV"   
@@ -468,7 +468,7 @@ text {
 	    x=160
 	    y=280
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -482,7 +482,7 @@ menu {
 	    x=270
 	    y=280
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)BalanceWhiteAuto"
@@ -496,7 +496,7 @@ text {
 	    x=160
 	    y=305
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -510,7 +510,7 @@ text {
 	    x=270
 	    y=305
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)Gamma"   
@@ -526,7 +526,7 @@ text {
 	    x=335
 	    y=305
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)Gamma_RBV"   
@@ -542,7 +542,7 @@ text {
 	    x=160
 	    y=330
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -556,7 +556,7 @@ menu {
 	    x=270
 	    y=330
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GammaEnable"
@@ -570,7 +570,7 @@ text {
 	    x=160
 	    y=355
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -584,7 +584,7 @@ menu {
 	    x=270
 	    y=355
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)SharpeningEnable"
@@ -598,7 +598,7 @@ text {
 	    x=160
 	    y=380
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -612,7 +612,7 @@ menu {
 	    x=270
 	    y=380
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)SharpeningAuto"
@@ -626,7 +626,7 @@ text {
 	    x=160
 	    y=405
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -640,7 +640,7 @@ text {
 	    x=270
 	    y=405
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)Sharpening"   
@@ -656,7 +656,7 @@ text {
 	    x=335
 	    y=405
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)Sharpening_RBV"   
@@ -672,7 +672,7 @@ text {
 	    x=160
 	    y=430
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -686,7 +686,7 @@ text {
 	    x=270
 	    y=430
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)SharpeningThreshold"   
@@ -702,7 +702,7 @@ text {
 	    x=335
 	    y=430
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)SharpeningThreshold_RBV"   

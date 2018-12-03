@@ -130,7 +130,7 @@ text {
 	x=160
 	y=10
 	width=150 
-	height=15
+	height=20
 	}
 	"basic attribute" {
 		clr=14
@@ -144,7 +144,7 @@ text {
 	    x=160
 	    y=55
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -158,7 +158,7 @@ menu {
 	    x=270
 	    y=55
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)SerialPortSelector"
@@ -172,7 +172,7 @@ text {
 	    x=160
 	    y=80
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -186,7 +186,7 @@ menu {
 	    x=270
 	    y=80
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)SerialPortSource"
@@ -200,7 +200,7 @@ text {
 	    x=160
 	    y=105
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -214,7 +214,7 @@ menu {
 	    x=270
 	    y=105
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)SerialPortBaudRate"
@@ -228,7 +228,7 @@ text {
 	    x=160
 	    y=130
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -242,7 +242,7 @@ text {
 	    x=270
 	    y=130
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)SerialPortDataBits"   
@@ -258,7 +258,7 @@ text {
 	    x=335
 	    y=130
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)SerialPortDataBits_RBV"   
@@ -274,7 +274,7 @@ text {
 	    x=160
 	    y=155
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -288,7 +288,7 @@ menu {
 	    x=270
 	    y=155
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)SerialPortStopBits"
@@ -302,7 +302,7 @@ text {
 	    x=160
 	    y=180
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -316,7 +316,7 @@ menu {
 	    x=270
 	    y=180
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)SerialPortParity"
@@ -330,7 +330,7 @@ text {
 	    x=160
 	    y=205
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -344,7 +344,7 @@ text {
 	    x=270
 	    y=205
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)SerialTransmitQueueMaxCharacterCount"   
@@ -360,7 +360,7 @@ text {
 	    x=335
 	    y=205
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)SerialTransmitQueueMaxCharacterCount_RBV"   
@@ -376,7 +376,7 @@ text {
 	    x=160
 	    y=230
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -390,7 +390,7 @@ text {
 	    x=270
 	    y=230
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)SerialTransmitQueueCurrentCharacterCount"   
@@ -406,7 +406,7 @@ text {
 	    x=335
 	    y=230
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)SerialTransmitQueueCurrentCharacterCount_RBV"   
@@ -422,7 +422,7 @@ text {
 	    x=160
 	    y=255
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -436,7 +436,7 @@ text {
 	    x=270
 	    y=255
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)SerialReceiveQueueMaxCharacterCount"   
@@ -452,7 +452,7 @@ text {
 	    x=335
 	    y=255
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)SerialReceiveQueueMaxCharacterCount_RBV"   
@@ -468,7 +468,7 @@ text {
 	    x=160
 	    y=280
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -482,7 +482,7 @@ text {
 	    x=270
 	    y=280
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)SerialReceiveQueueCurrentCharacterCount"   
@@ -498,7 +498,7 @@ text {
 	    x=335
 	    y=280
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)SerialReceiveQueueCurrentCharacterCount_RBV"   
@@ -514,7 +514,7 @@ text {
 	    x=160
 	    y=305
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -528,7 +528,7 @@ text {
 	    x=270
 	    y=305
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)SerialReceiveQueueClear.PROC"   
@@ -546,7 +546,7 @@ text {
 	    x=160
 	    y=330
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -560,7 +560,7 @@ text {
 	    x=270
 	    y=330
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)SerialReceiveFramingErrorCount"   
@@ -576,7 +576,7 @@ text {
 	    x=335
 	    y=330
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)SerialReceiveFramingErrorCount_RBV"   
@@ -592,7 +592,7 @@ text {
 	    x=160
 	    y=355
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -606,7 +606,7 @@ text {
 	    x=270
 	    y=355
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)SerialReceiveParityErrorCount"   
@@ -622,7 +622,7 @@ text {
 	    x=335
 	    y=355
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)SerialReceiveParityErrorCount_RBV"   

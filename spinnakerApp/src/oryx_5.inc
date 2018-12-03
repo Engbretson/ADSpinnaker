@@ -1,4 +1,4 @@
-/* ./oryx */ 
+/* ./ */ 
 
 createSPProperty(&ORYX_SerialPortSelector, asynParamInt32, "ORYX_SerialPortSelector", "SerialPortSelector"); 
 createSPProperty(&ORYX_SerialPortSource, asynParamInt32, "ORYX_SerialPortSource", "SerialPortSource"); 

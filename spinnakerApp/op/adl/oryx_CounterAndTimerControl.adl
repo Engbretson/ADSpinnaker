@@ -130,7 +130,7 @@ text {
 	x=160
 	y=10
 	width=150 
-	height=15
+	height=20
 	}
 	"basic attribute" {
 		clr=14
@@ -144,7 +144,7 @@ text {
 	    x=160
 	    y=55
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -158,7 +158,7 @@ menu {
 	    x=270
 	    y=55
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)CounterSelector"
@@ -172,7 +172,7 @@ text {
 	    x=160
 	    y=80
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -186,7 +186,7 @@ menu {
 	    x=270
 	    y=80
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)CounterEventSource"
@@ -200,7 +200,7 @@ text {
 	    x=160
 	    y=105
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -214,7 +214,7 @@ menu {
 	    x=270
 	    y=105
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)CounterEventActivation"
@@ -228,7 +228,7 @@ text {
 	    x=160
 	    y=130
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -242,7 +242,7 @@ text {
 	    x=270
 	    y=130
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)CounterDuration"   
@@ -258,7 +258,7 @@ text {
 	    x=335
 	    y=130
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)CounterDuration_RBV"   
@@ -274,7 +274,7 @@ text {
 	    x=160
 	    y=155
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -288,7 +288,7 @@ text {
 	    x=270
 	    y=155
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)CounterValue"   
@@ -304,7 +304,7 @@ text {
 	    x=335
 	    y=155
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)CounterValue_RBV"   
@@ -320,7 +320,7 @@ text {
 	    x=160
 	    y=180
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -334,7 +334,7 @@ text {
 	    x=270
 	    y=180
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)CounterValueAtReset"   
@@ -350,7 +350,7 @@ text {
 	    x=335
 	    y=180
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)CounterValueAtReset_RBV"   
@@ -366,7 +366,7 @@ text {
 	    x=160
 	    y=205
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -380,7 +380,7 @@ menu {
 	    x=270
 	    y=205
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)CounterTriggerSource"
@@ -394,7 +394,7 @@ text {
 	    x=160
 	    y=230
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -408,7 +408,7 @@ menu {
 	    x=270
 	    y=230
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)CounterTriggerActivation"
@@ -422,7 +422,7 @@ text {
 	    x=160
 	    y=255
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -436,7 +436,7 @@ menu {
 	    x=270
 	    y=255
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)CounterResetSource"
@@ -450,7 +450,7 @@ text {
 	    x=160
 	    y=280
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -464,7 +464,7 @@ menu {
 	    x=270
 	    y=280
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)CounterResetActivation"
@@ -478,7 +478,7 @@ text {
 	    x=160
 	    y=305
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -492,7 +492,7 @@ menu {
 	    x=270
 	    y=305
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)CounterStatus"
@@ -506,7 +506,7 @@ text {
 	    x=160
 	    y=330
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -520,7 +520,7 @@ text {
 	    x=270
 	    y=330
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)CounterDelay"   
@@ -536,7 +536,7 @@ text {
 	    x=335
 	    y=330
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)CounterDelay_RBV"   

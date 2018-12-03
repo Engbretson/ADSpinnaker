@@ -917,8 +917,9 @@ ADSpinnaker::ADSpinnaker(const char *portName, int cameraId, int traceMask, int 
     createParam("SP_TIME_STAMP_MODE",          asynParamInt32,   &SPTimeStampMode);
     createParam("SP_UNIQUE_ID_MODE",           asynParamInt32,   &SPUniqueIdMode);
     createSPProperty(&SPColorProcessEnabled,   asynParamInt32,   "SP_COLOR_PROCESS_ENABLED",     "OnBoardColorProcessEnabled");
-
+printf("before new command includes \n");
 #include "oryx_5.inc"
+printf("after new command includes \n");
 
     updateSPProperties();
 

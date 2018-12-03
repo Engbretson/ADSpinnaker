@@ -130,7 +130,7 @@ text {
 	x=160
 	y=10
 	width=150 
-	height=15
+	height=20
 	}
 	"basic attribute" {
 		clr=14
@@ -144,7 +144,7 @@ text {
 	    x=160
 	    y=55
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -158,7 +158,7 @@ menu {
 	    x=270
 	    y=55
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)LineSelector"
@@ -172,7 +172,7 @@ text {
 	    x=160
 	    y=80
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -186,7 +186,7 @@ menu {
 	    x=270
 	    y=80
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)LineMode"
@@ -200,7 +200,7 @@ text {
 	    x=160
 	    y=105
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -214,7 +214,7 @@ menu {
 	    x=270
 	    y=105
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)V3_3Enable"
@@ -228,7 +228,7 @@ text {
 	    x=160
 	    y=130
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -242,7 +242,7 @@ menu {
 	    x=270
 	    y=130
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)LineInverter"
@@ -256,7 +256,7 @@ text {
 	    x=160
 	    y=155
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -270,7 +270,7 @@ menu {
 	    x=270
 	    y=155
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)LineStatus"
@@ -284,7 +284,7 @@ text {
 	    x=160
 	    y=180
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -298,7 +298,7 @@ text {
 	    x=270
 	    y=180
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)LineStatusAll"   
@@ -314,7 +314,7 @@ text {
 	    x=335
 	    y=180
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)LineStatusAll_RBV"   
@@ -330,7 +330,7 @@ text {
 	    x=160
 	    y=205
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -344,7 +344,7 @@ menu {
 	    x=270
 	    y=205
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)LineInputFilterSelector"
@@ -358,7 +358,7 @@ text {
 	    x=160
 	    y=230
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -372,7 +372,7 @@ text {
 	    x=270
 	    y=230
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)LineFilterWidth"   
@@ -388,7 +388,7 @@ text {
 	    x=335
 	    y=230
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)LineFilterWidth_RBV"   
@@ -404,7 +404,7 @@ text {
 	    x=160
 	    y=255
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -418,7 +418,7 @@ menu {
 	    x=270
 	    y=255
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)LineSource"
@@ -432,7 +432,7 @@ text {
 	    x=160
 	    y=280
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -446,7 +446,7 @@ menu {
 	    x=270
 	    y=280
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)LineFormat"
@@ -460,7 +460,7 @@ text {
 	    x=160
 	    y=305
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -474,7 +474,7 @@ menu {
 	    x=270
 	    y=305
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)ExposureActiveMode"
@@ -488,7 +488,7 @@ text {
 	    x=160
 	    y=330
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -502,7 +502,7 @@ menu {
 	    x=270
 	    y=330
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)UserOutputSelector"
@@ -516,7 +516,7 @@ text {
 	    x=160
 	    y=355
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -530,7 +530,7 @@ menu {
 	    x=270
 	    y=355
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)UserOutputValue"
@@ -544,7 +544,7 @@ text {
 	    x=160
 	    y=380
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -558,7 +558,7 @@ text {
 	    x=270
 	    y=380
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)UserOutputValueAll"   
@@ -574,7 +574,7 @@ text {
 	    x=335
 	    y=380
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)UserOutputValueAll_RBV"   

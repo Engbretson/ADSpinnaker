@@ -130,7 +130,7 @@ text {
 	x=160
 	y=10
 	width=150 
-	height=15
+	height=20
 	}
 	"basic attribute" {
 		clr=14
@@ -144,7 +144,7 @@ text {
 	    x=160
 	    y=55
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -158,7 +158,7 @@ menu {
 	    x=270
 	    y=55
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevSupportedOptionSelector"
@@ -172,7 +172,7 @@ text {
 	    x=160
 	    y=80
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -186,7 +186,7 @@ menu {
 	    x=270
 	    y=80
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevSupportedOption"
@@ -200,7 +200,7 @@ text {
 	    x=160
 	    y=105
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -214,7 +214,7 @@ text {
 	    x=270
 	    y=105
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevInterfaceSelector"   
@@ -230,7 +230,7 @@ text {
 	    x=335
 	    y=105
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevInterfaceSelector_RBV"   
@@ -246,7 +246,7 @@ text {
 	    x=160
 	    y=130
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -260,7 +260,7 @@ text {
 	    x=270
 	    y=130
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevMACAddress"   
@@ -276,7 +276,7 @@ text {
 	    x=335
 	    y=130
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevMACAddress_RBV"   
@@ -292,7 +292,7 @@ text {
 	    x=160
 	    y=155
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -306,7 +306,7 @@ menu {
 	    x=270
 	    y=155
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevCurrentIPConfigurationLLA"
@@ -320,7 +320,7 @@ text {
 	    x=160
 	    y=180
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -334,7 +334,7 @@ menu {
 	    x=270
 	    y=180
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevCurrentIPConfigurationDHCP"
@@ -348,7 +348,7 @@ text {
 	    x=160
 	    y=205
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -362,7 +362,7 @@ menu {
 	    x=270
 	    y=205
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevCurrentIPConfigurationPersistentIP"
@@ -376,7 +376,7 @@ text {
 	    x=160
 	    y=230
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -390,7 +390,7 @@ text {
 	    x=270
 	    y=230
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevCurrentIPAddress"   
@@ -406,7 +406,7 @@ text {
 	    x=335
 	    y=230
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevCurrentIPAddress_RBV"   
@@ -422,7 +422,7 @@ text {
 	    x=160
 	    y=255
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -436,7 +436,7 @@ text {
 	    x=270
 	    y=255
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevCurrentSubnetMask"   
@@ -452,7 +452,7 @@ text {
 	    x=335
 	    y=255
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevCurrentSubnetMask_RBV"   
@@ -468,7 +468,7 @@ text {
 	    x=160
 	    y=280
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -482,7 +482,7 @@ text {
 	    x=270
 	    y=280
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevCurrentDefaultGateway"   
@@ -498,7 +498,7 @@ text {
 	    x=335
 	    y=280
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevCurrentDefaultGateway_RBV"   
@@ -514,7 +514,7 @@ text {
 	    x=160
 	    y=305
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -528,7 +528,7 @@ text {
 	    x=270
 	    y=305
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)GevFirstURL_RBV"   
@@ -545,7 +545,7 @@ text {
 	    x=160
 	    y=330
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -559,7 +559,7 @@ text {
 	    x=270
 	    y=330
 	    width=125
-	    height=15
+	    height=20
 	    }
 	monitor {
 	chan="$(P)$(R)GevSecondURL_RBV"   
@@ -576,7 +576,7 @@ text {
 	    x=160
 	    y=355
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -590,7 +590,7 @@ text {
 	    x=270
 	    y=355
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevNumberOfInterfaces"   
@@ -606,7 +606,7 @@ text {
 	    x=335
 	    y=355
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevNumberOfInterfaces_RBV"   
@@ -622,7 +622,7 @@ text {
 	    x=160
 	    y=380
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -636,7 +636,7 @@ text {
 	    x=270
 	    y=380
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevPersistentIPAddress"   
@@ -652,7 +652,7 @@ text {
 	    x=335
 	    y=380
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevPersistentIPAddress_RBV"   
@@ -668,7 +668,7 @@ text {
 	    x=160
 	    y=405
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -682,7 +682,7 @@ text {
 	    x=270
 	    y=405
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevPersistentSubnetMask"   
@@ -698,7 +698,7 @@ text {
 	    x=335
 	    y=405
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevPersistentSubnetMask_RBV"   
@@ -714,7 +714,7 @@ text {
 	    x=160
 	    y=430
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -728,7 +728,7 @@ text {
 	    x=270
 	    y=430
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevPersistentDefaultGateway"   
@@ -744,7 +744,7 @@ text {
 	    x=335
 	    y=430
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevPersistentDefaultGateway_RBV"   
@@ -760,7 +760,7 @@ text {
 	    x=160
 	    y=455
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -774,7 +774,7 @@ text {
 	    x=270
 	    y=455
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevHeartbeatTimeout"   
@@ -790,7 +790,7 @@ text {
 	    x=335
 	    y=455
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevHeartbeatTimeout_RBV"   
@@ -806,7 +806,7 @@ text {
 	    x=160
 	    y=480
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -820,7 +820,7 @@ text {
 	    x=270
 	    y=480
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevTimestampTickFrequency"   
@@ -836,7 +836,7 @@ text {
 	    x=335
 	    y=480
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevTimestampTickFrequency_RBV"   
@@ -852,7 +852,7 @@ text {
 	    x=160
 	    y=505
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -866,7 +866,7 @@ menu {
 	    x=270
 	    y=505
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevGVCPPendingAck"
@@ -880,7 +880,7 @@ text {
 	    x=160
 	    y=530
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -894,7 +894,7 @@ menu {
 	    x=270
 	    y=530
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevGVCPHeartbeatDisable"
@@ -908,7 +908,7 @@ text {
 	    x=160
 	    y=555
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -922,7 +922,7 @@ text {
 	    x=270
 	    y=555
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevGVCPPendingTimeout"   
@@ -938,7 +938,7 @@ text {
 	    x=335
 	    y=555
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevGVCPPendingTimeout_RBV"   
@@ -954,7 +954,7 @@ text {
 	    x=160
 	    y=580
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -968,7 +968,7 @@ menu {
 	    x=270
 	    y=580
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevIEEE1588"
@@ -982,7 +982,7 @@ text {
 	    x=160
 	    y=605
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -996,7 +996,7 @@ menu {
 	    x=270
 	    y=605
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevIEEE1588ClockAccuracy"
@@ -1010,7 +1010,7 @@ text {
 	    x=160
 	    y=630
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1024,7 +1024,7 @@ menu {
 	    x=270
 	    y=630
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevIEEE1588Status"
@@ -1038,7 +1038,7 @@ text {
 	    x=160
 	    y=655
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1052,7 +1052,7 @@ menu {
 	    x=270
 	    y=655
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevCCP"
@@ -1066,7 +1066,7 @@ text {
 	    x=160
 	    y=680
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1080,7 +1080,7 @@ text {
 	    x=270
 	    y=680
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevMCPHostPort"   
@@ -1096,7 +1096,7 @@ text {
 	    x=335
 	    y=680
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevMCPHostPort_RBV"   
@@ -1112,7 +1112,7 @@ text {
 	    x=160
 	    y=705
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1126,7 +1126,7 @@ text {
 	    x=270
 	    y=705
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevMCDA"   
@@ -1142,7 +1142,7 @@ text {
 	    x=335
 	    y=705
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevMCDA_RBV"   
@@ -1158,7 +1158,7 @@ text {
 	    x=160
 	    y=730
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1172,7 +1172,7 @@ text {
 	    x=270
 	    y=730
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevMCTT"   
@@ -1188,7 +1188,7 @@ text {
 	    x=335
 	    y=730
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevMCTT_RBV"   
@@ -1204,7 +1204,7 @@ text {
 	    x=160
 	    y=755
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1218,7 +1218,7 @@ text {
 	    x=270
 	    y=755
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevMCRC"   
@@ -1234,7 +1234,7 @@ text {
 	    x=335
 	    y=755
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevMCRC_RBV"   
@@ -1250,7 +1250,7 @@ text {
 	    x=160
 	    y=780
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1264,7 +1264,7 @@ text {
 	    x=270
 	    y=780
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevMCSP"   
@@ -1280,7 +1280,7 @@ text {
 	    x=335
 	    y=780
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevMCSP_RBV"   
@@ -1296,7 +1296,7 @@ text {
 	    x=160
 	    y=805
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1310,7 +1310,7 @@ text {
 	    x=270
 	    y=805
 	    width=60
-	    height=15
+	    height=20
 	    }
 	control {
 	chan="$(P)$(R)GevStreamChannelSelector"   
@@ -1326,7 +1326,7 @@ text {
 	    x=335
 	    y=805
 	    width=70
-	    height=15
+	    height=20
 	    }
 	monitor {
 		chan="$(P)$(R)GevStreamChannelSelector_RBV"   
@@ -1342,7 +1342,7 @@ text {
 	    x=160
 	    y=830
 	    width=100
-	    height=15
+	    height=20
 	    }
 	"basic attribute" {
 		clr=14
@@ -1356,7 +1356,7 @@ menu {
 	    x=270
 	    y=830
 	    width=125
-	    height=15
+	    height=20
 	    }
 	control {
 		chan="$(P)$(R)GevSCCFGUnconditionalStreaming"
