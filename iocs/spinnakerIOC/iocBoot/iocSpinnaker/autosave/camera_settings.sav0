@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 181203-124227
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 181203-125632
 2bmbSP1:cam1:Acquire 0
 2bmbSP1:cam1:AcquireBusy 0
 2bmbSP1:cam1:AcquirePeriod 0.00616272
@@ -18,7 +18,7 @@
 2bmbSP1:cam1:ArrayCallbacks 1
 2bmbSP1:cam1:ArrayCallbacks_RBV 1
 2bmbSP1:cam1:ArrayCounter 0
-2bmbSP1:cam1:ArrayCounter_RBV 937
+2bmbSP1:cam1:ArrayCounter_RBV 0
 2bmbSP1:cam1:ArrayRate_RBV 0
 2bmbSP1:cam1:ArraySize0 0
 2bmbSP1:cam1:ArraySize0_RBV 0
@@ -40,9 +40,9 @@
 2bmbSP1:cam1:ArraySize8_RBV 0
 2bmbSP1:cam1:ArraySize9 0
 2bmbSP1:cam1:ArraySize9_RBV 0
-2bmbSP1:cam1:ArraySize_RBV 5013504
-2bmbSP1:cam1:ArraySizeX_RBV 2448
-2bmbSP1:cam1:ArraySizeY_RBV 2048
+2bmbSP1:cam1:ArraySize_RBV 0
+2bmbSP1:cam1:ArraySizeX_RBV 0
+2bmbSP1:cam1:ArraySizeY_RBV 0
 2bmbSP1:cam1:ArraySizeZ_RBV 0
 2bmbSP1:cam1:AsynIO 0
 2bmbSP1:cam1:BayerPattern_RBV 0
@@ -69,7 +69,7 @@
 2bmbSP1:cam1:ConvertPixelFormat 0
 2bmbSP1:cam1:ConvertPixelFormat_RBV 0
 2bmbSP1:cam1:DataType 0
-2bmbSP1:cam1:DataType_RBV 1
+2bmbSP1:cam1:DataType_RBV 0
 2bmbSP1:cam1:DetectorState_RBV 0
 2bmbSP1:cam1:Dim0SA 
 2bmbSP1:cam1:Dim0SA_RBV 
@@ -125,19 +125,19 @@
 2bmbSP1:cam1:Gain_LOPR 0
 2bmbSP1:cam1:Gain_MAX 47.994294033026
 2bmbSP1:cam1:Gain_MIN 0
-2bmbSP1:cam1:Gain_RBV 0
+2bmbSP1:cam1:Gain_RBV 17.897908896642
 2bmbSP1:cam1:Gamma 1
-2bmbSP1:cam1:Gamma_DRVH 4
-2bmbSP1:cam1:Gamma_DRVL 0.25
+2bmbSP1:cam1:Gamma_DRVH 0
+2bmbSP1:cam1:Gamma_DRVL 0
 2bmbSP1:cam1:GammaEnable 0
 2bmbSP1:cam1:GammaEnable_RBV 0
-2bmbSP1:cam1:Gamma_HOPR 4
-2bmbSP1:cam1:Gamma_LOPR 0.25
-2bmbSP1:cam1:Gamma_MAX 4
-2bmbSP1:cam1:Gamma_MIN 0.25
+2bmbSP1:cam1:Gamma_HOPR 0
+2bmbSP1:cam1:Gamma_LOPR 0
+2bmbSP1:cam1:Gamma_MAX 0
+2bmbSP1:cam1:Gamma_MIN 0
 2bmbSP1:cam1:Gamma_RBV 1
-2bmbSP1:cam1:ImageMode 1
-2bmbSP1:cam1:ImageMode_RBV 1
+2bmbSP1:cam1:ImageMode 0
+2bmbSP1:cam1:ImageMode_RBV 0
 2bmbSP1:cam1:Manufacturer_RBV FLIR
 2bmbSP1:cam1:MaxSizeX_RBV 2448
 2bmbSP1:cam1:MaxSizeY_RBV 2048
@@ -148,7 +148,7 @@
 2bmbSP1:cam1:Model_RBV Oryx ORX-10G-51S5M
 2bmbSP1:cam1:NDAttributesFile @array@ { "109" "111" "110" "97" "68" "101" "116" "101" "99" "116" "111" "114" "65" "116" "116" "114" "105" "98" "117" "116" "101" "115" "46" "120" "109" "108" "0" }
 2bmbSP1:cam1:NDAttributesMacros 0
-2bmbSP1:cam1:NDAttributesStatus 1
+2bmbSP1:cam1:NDAttributesStatus 0
 2bmbSP1:cam1:NDimensions 0
 2bmbSP1:cam1:NDimensions_RBV 0
 2bmbSP1:cam1:NumExposures 20
@@ -156,15 +156,15 @@
 2bmbSP1:cam1:NumExposures_RBV 20
 2bmbSP1:cam1:NumImages 300
 2bmbSP1:cam1:NumImagesCounter_RBV 0
-2bmbSP1:cam1:NumImages_RBV 2
+2bmbSP1:cam1:NumImages_RBV 300
 2bmbSP1:cam1:NumQueuedArrays 0
 2bmbSP1:cam1:PixelFormat 0
 2bmbSP1:cam1:PixelFormat_RBV 0
-2bmbSP1:cam1:PoolAllocBuffers 7
-2bmbSP1:cam1:PoolFreeBuffers 6
+2bmbSP1:cam1:PoolAllocBuffers 0
+2bmbSP1:cam1:PoolFreeBuffers 0
 2bmbSP1:cam1:PoolMaxMem 0
-2bmbSP1:cam1:PoolUsedBuffers 1
-2bmbSP1:cam1:PoolUsedMem 38.25
+2bmbSP1:cam1:PoolUsedBuffers 0
+2bmbSP1:cam1:PoolUsedMem 0
 2bmbSP1:cam1:PortName_RBV SP1
 2bmbSP1:cam1:ReadStatus 1
 2bmbSP1:cam1:ReverseX 0
@@ -214,12 +214,12 @@
 2bmbSP1:cam1:SizeX_RBV 2448
 2bmbSP1:cam1:SizeY 2048
 2bmbSP1:cam1:SizeY_RBV 2048
-2bmbSP1:cam1:SoftwareTrigger 1
+2bmbSP1:cam1:SoftwareTrigger 0
 2bmbSP1:cam1:StatusMessage_RBV 0
 2bmbSP1:cam1:StringFromServer_RBV @array@ { "60" "110" "111" "116" "32" "117" "115" "101" "100" "32" "98" "121" "32" "100" "114" "105" "118" "101" "114" "62" "0" }
 2bmbSP1:cam1:StringToServer_RBV @array@ { "60" "110" "111" "116" "32" "117" "115" "101" "100" "32" "98" "121" "32" "100" "114" "105" "118" "101" "114" "62" "0" }
 2bmbSP1:cam1:Temperature 25
-2bmbSP1:cam1:TemperatureActual 46.875
+2bmbSP1:cam1:TemperatureActual 47
 2bmbSP1:cam1:Temperature_RBV 25
 2bmbSP1:cam1:TimeRemaining_RBV 0
 2bmbSP1:cam1:TimeStampMode 0
@@ -227,7 +227,7 @@
 2bmbSP1:cam1:TimeStamp_RBV 0
 2bmbSP1:cam1:TransmitFailureCount 0
 2bmbSP1:cam1:TriggerActivation 3
-2bmbSP1:cam1:TriggerActivation_RBV 0
+2bmbSP1:cam1:TriggerActivation_RBV 3
 2bmbSP1:cam1:TriggerDelay 7e-06
 2bmbSP1:cam1:TriggerDelay_DRVH 0.06552
 2bmbSP1:cam1:TriggerDelay_DRVL 7e-06
