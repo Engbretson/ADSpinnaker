@@ -146,7 +146,7 @@ border-radius: 2px;
                 <string>Acquisition Control;Analog Control;Auto Algorithm Control;Chunk Data Control;Color Transformation Control;Counter And Timer Control;Defective Pixel Correction;Device Control 1;Device Control 2;Digital IO Control;Event Control;Event Error Data;Event Exposure End Data;Event Serial Port Receive Data;Event Test Data;FFC User Table Contraol</string>
             </property>
             <property name="files">
-                <string>oryx_AcquisitionControl.adl;oryx_AnalogControl.adl;oryx_AutoAlgorithmControl.adl;oryx_ChunkDataControl.adl;oryx_ColorTransformationControl.adl;oryx_CounterAndTimerControl.adl;oryx_DefectivePixelCorrection.adl;oryx_DeviceControl1.adl;oryx_DeviceControl2.adl;oryx_DigitalIOControl.adl;oryx_EventControl.adl;oryx_EventErrorData.adl;oryx_EventExposureEndData.adl;oryx_EventSerialPortReceiveData.adl;oryx_EventTestData.adl;oryx_FfcUserTableControl.adl</string>
+                <string>oryx_AcquisitionControl.adl;oryx_AnalogControl.adl;oryx_AutoAlgorithmControl.adll;oryx_ChunkDataControl.adl;oryx_ColorTransformationControl.adl;oryx_CounterAndTimerControl.adll;oryx_DefectivePixelCorrection.adl;oryx_DeviceControl1.adl;oryx_DeviceControl2.adl;oryx_DigitalIOControl.adl;oryx_EventControl.adl;oryx_EventErrorData.adl;oryx_EventExposureEndData.adll;oryx_EventSerialPortReceiveData.adl;oryx_EventTestData.adl;oryx_FfcUserTableControl.adl</string>
             </property>
             <property name="args">
                 <string>P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R)</string>
@@ -254,16 +254,91 @@ border-radius: 2px;
                 <enum>Menu</enum>
             </property>
             <property name="labels">
-                <string>File Access Control;Flat Field Correction Control;GigE Vision 1;GigE Vision 2;Image Format Control;Logic Block Control;LUT Control;Sequencer Control;Serial Port Control;Test Control;Transfer Control ;Transport Layer Control;User Set Control</string>
+                <string>File Access Control;Flat Field Correction Control;GigE Vision 1;GigE Vision 2;Image Format Control;Logic Block Control;LUT Control;Sequencer Control;Serial Port Control;Test Control;Transfer Control ;Transport Layer Control</string>
             </property>
             <property name="files">
-                <string>oryx_FileAccessControl.adl;oryx_FlatFieldCorrectionControl.adl;oryx_GigEVision1.adl;oryx_GigEVision2.adl;oryx_ImageFormatControl.adl;oryx_LogicBlockControl.adl;oryx_LUTControl.adl;oryx_SequencerControl.adl;oryx_SerialPortControl.adl;oryx_TestControl.adl;oryx_TransferControl.adl;oryx_TransportLayerControl.adl;oryx_UserSetControl.adl</string>
+                <string>oryx_FileAccessControl.adl;oryx_FlatFieldCorrectionControl.adl;oryx_GigEVision1.adl;oryx_GigEVision2.adl;oryx_ImageFormatControl.adl;oryx_LogicBlockControl.adl;oryx_LUTControl.adl;oryx_SequencerControl.adl;oryx_SerialPortControl.adl;oryx_TestControl.adl;oryx_TransferControl.adl;oryx_TransportLayerControl.adl</string>
             </property>
             <property name="args">
-                <string>P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R)</string>
+                <string>P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R)</string>
             </property>
             <property name="removeParent">
-                <string>false;false;false;false;false;false;false;false;false;false;false;false;false</string>
+                <string>false;false;false;false;false;false;false;false;false;false;false;false</string>
+            </property>
+        </widget>
+        <widget class="caLabel" name="caLabel_2">
+            <property name="frameShape">
+                <enum>QFrame::NoFrame</enum>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="0">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="text">
+                <string>Oryx Setup #3</string>
+            </property>
+            <property name="fontScaleMode">
+                <enum>ESimpleLabel::WidthAndHeight</enum>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignAbsolute|Qt::AlignRight|Qt::AlignVCenter</set>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>8</x>
+                    <y>50</y>
+                    <width>160</width>
+                    <height>20</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="caRelatedDisplay" name="caRelatedDisplay_2">
+            <property name="geometry">
+                <rect>
+                    <x>176</x>
+                    <y>50</y>
+                    <width>70</width>
+                    <height>20</height>
+                </rect>
+            </property>
+            <property name="foreground">
+                <color alpha="255">
+                    <red>0</red>
+                    <green>0</green>
+                    <blue>0</blue>
+                </color>
+            </property>
+            <property name="background">
+                <color alpha="255">
+                    <red>115</red>
+                    <green>223</green>
+                    <blue>255</blue>
+                </color>
+            </property>
+            <property name="stackingMode">
+                <enum>Menu</enum>
+            </property>
+            <property name="labels">
+                <string>File Access Control;Flat Field Correction Control;GigE Vision 1;GigE Vision 2;Image Format Control;Logic Block Control;LUT Control;Sequencer Control;Serial Port Control;Test Control;Transfer Control ;Transport Layer Control</string>
+            </property>
+            <property name="files">
+                <string>oryx_FileAccessControl.adl;oryx_FlatFieldCorrectionControl.adl;oryx_GigEVision1.adl;oryx_GigEVision2.adl;oryx_ImageFormatControl.adl;oryx_LogicBlockControl.adl;oryx_LUTControl.adl;oryx_SequencerControl.adl;oryx_SerialPortControl.adl;oryx_TestControl.adl;oryx_TransferControl.adl;oryx_TransportLayerControl.adl</string>
+            </property>
+            <property name="args">
+                <string>P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R);P=$(P),R=$(R)</string>
+            </property>
+            <property name="removeParent">
+                <string>false;false;false;false;false;false;false;false;false;false;false;false</string>
             </property>
         </widget>
         <widget class="caGraphics" name="caRectangle_0">
@@ -305,9 +380,11 @@ border-radius: 2px;
         </widget>
         <zorder>caLabel_0</zorder>
         <zorder>caLabel_1</zorder>
+        <zorder>caLabel_2</zorder>
         <zorder>caRectangle_0</zorder>
         <zorder>caRelatedDisplay_0</zorder>
         <zorder>caRelatedDisplay_1</zorder>
+        <zorder>caRelatedDisplay_2</zorder>
     </widget>
 </widget>
 </ui>
