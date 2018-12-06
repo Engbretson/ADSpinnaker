@@ -144,7 +144,7 @@ composite {
 composite {
 	object {
 		x=715
-		y=540
+		y=620
 		width=350
 		height=160
 	}
@@ -464,7 +464,7 @@ rectangle {
 		x=715
 		y=335
 		width=350
-		height=200
+		height=280
 	}
 	"basic attribute" {
 		clr=14
@@ -2088,7 +2088,7 @@ menu {
 "text update" {
 	object {
 		x=950
-		y=461
+		y=460
 		width=110
 		height=18
 	}
@@ -2130,10 +2130,110 @@ menu {
 composite {
 	object {
 		x=716
-		y=715
+		y=785
 		width=280
 		height=80
 	}
 	"composite name"=""
 	"composite file"="oryx_setup.adl"
+}
+text {
+	object {
+		x=790
+		y=534
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="TriggerSelector"
+	align="horiz. right"
+}
+menu {
+	object {
+		x=835
+		y=534
+		width=110
+		height=20
+	}
+	control {
+		chan="$(P)$(R)TriggerSelector"
+		clr=14
+		bclr=51
+	}
+}
+"text update" {
+	object {
+		x=950
+		y=534
+		width=110
+		height=18
+	}
+	monitor {
+		chan="$(P)$(R)TriggerSelector_RBV"
+		clr=54
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+text {
+	object {
+		x=789
+		y=558
+		width=40
+		height=20
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="TriggerActivation"
+	align="horiz. right"
+}
+menu {
+	object {
+		x=834
+		y=558
+		width=110
+		height=20
+	}
+	control {
+		chan="$(P)$(R)TriggerActivation"
+		clr=14
+		bclr=51
+	}
+}
+"text update" {
+	object {
+		x=950
+		y=558
+		width=110
+		height=18
+	}
+	monitor {
+		chan="$(P)$(R)TriggerActivation_RBV"
+		clr=54
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=950
+		y=485
+		width=110
+		height=18
+	}
+	monitor {
+		chan="$(P)$(R)ExposureMode_RBV"
+		clr=54
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
 }
