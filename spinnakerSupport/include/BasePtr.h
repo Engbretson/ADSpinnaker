@@ -52,6 +52,10 @@ namespace Spinnaker
 
         virtual BasePtr& operator=(const int nMustBeNull);
 
+        virtual BasePtr& operator=(const long nMustBeNull);
+
+        virtual BasePtr& operator=(const nullptr_t nullPtr);
+
         //! Dereferencing
         virtual operator T*(void) const;
 
@@ -72,6 +76,9 @@ namespace Spinnaker
 
         //! Pointer equal
         virtual bool operator==(int nMustBeNull) const;
+
+        //! Pointer equal
+        virtual bool operator==(long nMustBeNull) const;
 
         //! get()
         virtual T* get() const;

@@ -29,9 +29,9 @@ namespace Spinnaker
 
     // Define macros for getting Spinnaker library version
 #define	FLIR_SPINNAKER_VERSION_MAJOR 1
-#define FLIR_SPINNAKER_VERSION_MINOR 19
+#define FLIR_SPINNAKER_VERSION_MINOR 20
 #define	FLIR_SPINNAKER_VERSION_TYPE 0
-#define	FLIR_SPINNAKER_VERSION_BUILD 22
+#define	FLIR_SPINNAKER_VERSION_BUILD 14
 
     /**
     * @defgroup SpinnakerClasses Spinnaker Classes
@@ -235,6 +235,14 @@ namespace Spinnaker
          * @return A struct containing the current version of Spinnaker (major, minor, type, build).
          */
         virtual const LibraryVersion GetLibraryVersion();
+
+        /**
+        * Gets a reference to the system node map. The system must be initialized by a call to System::GetInstance() first
+        * before a node map reference can be successfully acquired.
+        *
+        * @return  A reference to the System INodeMap.
+        */
+        virtual GenApi::INodeMap & GetTLNodeMap() const;
 
     protected:
         /**

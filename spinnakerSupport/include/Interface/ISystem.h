@@ -22,6 +22,7 @@
 #include "SpinnakerDefs.h"
 #include "InterfaceList.h"
 #include "CameraList.h"
+#include "TransportLayerSystem.h"
 #include "LoggingEvent.h"
 
 namespace Spinnaker
@@ -63,8 +64,14 @@ namespace Spinnaker
         virtual bool IsInUse() = 0;
         virtual void SendActionCommand(unsigned int deviceKey, unsigned int groupKey, unsigned int groupMask, unsigned long long actionTime = 0, unsigned int* pResultSize = 0, ActionCommandResult results[] = NULL) = 0;
         virtual const LibraryVersion GetLibraryVersion() = 0;
+        virtual GenApi::INodeMap & GetTLNodeMap() const = 0;
+
+        // Gets vital system information without connecting to the XML through transport layer specific bootstrap registers.
+        TransportLayerSystem TLSystem;
 
     protected:
+        friend class SystemPtrInternal;
+
         ISystem() {};
         ISystem(const ISystem&) {};
         ISystem& operator=(const ISystem&);

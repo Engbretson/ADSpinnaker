@@ -388,6 +388,7 @@ extern "C" {
     * Broadcast an Action Command to all devices on system
     * @see spinError
     *
+    * @param hSystem The system on which to send the action command to all devices.
     * @param iDeviceKey The Action Command's device key
     * @param iGroupKey The Action Command's group key
     * @param iGroupMask The Action Command's group mask
@@ -405,6 +406,17 @@ extern "C" {
     * @return A struct containing the current version of Spinnaker(major, minor, type, build).
     */
     SPINNAKERC_API spinSystemGetLibraryVersion(spinSystem hSystem, spinLibraryVersion* hLibraryVersion);
+
+    /**
+    * Retrieves the transport layer nodemap from the system.
+    * @see spinError
+    *
+    * @param hSystem The system handle.
+    * @param phNodeMap The nodemap handle pointer in which the transport layer system nodemap is returned.
+    *
+    * @return spinError The error code; returns SPINNAKER_ERR_SUCCESS (or 0) for no error
+    */
+    SPINNAKERC_API spinSystemGetTLNodeMap(spinSystem hSystem, spinNodeMapHandle* phNodeMap);
     /*@}*/
 
     /**
