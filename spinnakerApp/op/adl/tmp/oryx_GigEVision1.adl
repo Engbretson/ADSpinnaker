@@ -1,0 +1,1368 @@
+
+file {
+	name="prototype.adl"
+	version=030107
+}
+display {
+	object {
+		x=50
+		y=50
+		width=560
+		height=885
+	}
+	clr=14
+	bclr=4
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+                ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,	}
+}
+rectangle {
+   object {
+	x=5
+	y=5
+	width=550
+	height=30
+	}
+	"basic attribute" {
+		clr=14
+		fill="outline"
+	}
+}
+rectangle {
+   object {
+	x=5
+	y=50
+	width=550
+	height=825
+	}
+	"basic attribute" {
+		clr=14
+		fill="outline"
+	}
+}
+
+
+        
+#rectangle {
+#   object {
+#	x=5
+#	y=50 
+#        width=475
+#	height=805
+#	}
+#	"basic attribute" {
+#		clr=14
+#		fill="outline"
+#	}
+#}
+text {
+   object {
+	x=160
+	y=10
+	width=150 
+	height=20
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="GigEVision1 "
+	align="horiz. right"
+}
+
+text {
+     object {
+	    x=160
+	    y=55
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevSupportedOptionSelector"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=55
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevSupportedOptionSelector"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=80
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevSupportedOption"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=80
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevSupportedOption"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=105
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevInterfaceSelector"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=105
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevInterfaceSelector"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=105
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevInterfaceSelector_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=130
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevMACAddress"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=130
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevMACAddress"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=130
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevMACAddress_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=155
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevCurrentIPConfigurationLLA"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=155
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevCurrentIPConfigurationLLA"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=180
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevCurrentIPConfigurationDHCP"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=180
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevCurrentIPConfigurationDHCP"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=205
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevCurrentIPConfigurationPersistentIP"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=205
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevCurrentIPConfigurationPersistentIP"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=230
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevCurrentIPAddress"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=230
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevCurrentIPAddress"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=230
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevCurrentIPAddress_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=255
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevCurrentSubnetMask"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=255
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevCurrentSubnetMask"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=255
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevCurrentSubnetMask_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=280
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevCurrentDefaultGateway"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=280
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevCurrentDefaultGateway"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=280
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevCurrentDefaultGateway_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=305
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevFirstURL"
+	align="horiz. right"
+}    
+
+"text update" {
+     object {
+	    x=270
+	    y=305
+	    width=125
+	    height=20
+	    }
+	monitor {
+	chan="$(P)$(R)GevFirstURL_RBV"   
+	clr=54
+	bclr=4
+	}
+	limits {
+	}
+	align="horiz. center"
+}     
+
+text {
+     object {
+	    x=160
+	    y=330
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevSecondURL"
+	align="horiz. right"
+}    
+
+"text update" {
+     object {
+	    x=270
+	    y=330
+	    width=125
+	    height=20
+	    }
+	monitor {
+	chan="$(P)$(R)GevSecondURL_RBV"   
+	clr=54
+	bclr=4
+	}
+	limits {
+	}
+	align="horiz. center"
+}     
+
+text {
+     object {
+	    x=160
+	    y=355
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevNumberOfInterfaces"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=355
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevNumberOfInterfaces"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=355
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevNumberOfInterfaces_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=380
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevPersistentIPAddress"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=380
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevPersistentIPAddress"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=380
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevPersistentIPAddress_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=405
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevPersistentSubnetMask"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=405
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevPersistentSubnetMask"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=405
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevPersistentSubnetMask_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=430
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevPersistentDefaultGateway"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=430
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevPersistentDefaultGateway"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=430
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevPersistentDefaultGateway_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=455
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevHeartbeatTimeout"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=455
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevHeartbeatTimeout"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=455
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevHeartbeatTimeout_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=480
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevTimestampTickFrequency"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=480
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevTimestampTickFrequency"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=480
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevTimestampTickFrequency_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=505
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevGVCPPendingAck"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=505
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevGVCPPendingAck"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=530
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevGVCPHeartbeatDisable"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=530
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevGVCPHeartbeatDisable"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=555
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevGVCPPendingTimeout"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=555
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevGVCPPendingTimeout"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=555
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevGVCPPendingTimeout_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=580
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevIEEE1588"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=580
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevIEEE1588"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=605
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevIEEE1588ClockAccuracy"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=605
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevIEEE1588ClockAccuracy"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=630
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevIEEE1588Status"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=630
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevIEEE1588Status"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=655
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevCCP"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=655
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevCCP"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+text {
+     object {
+	    x=160
+	    y=680
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevMCPHostPort"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=680
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevMCPHostPort"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=680
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevMCPHostPort_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=705
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevMCDA"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=705
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevMCDA"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=705
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevMCDA_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=730
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevMCTT"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=730
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevMCTT"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=730
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevMCTT_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=755
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevMCRC"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=755
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevMCRC"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=755
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevMCRC_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=780
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevMCSP"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=780
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevMCSP"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=780
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevMCSP_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=805
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevStreamChannelSelector"
+	align="horiz. right"
+}    
+
+"text entry" {
+     object {
+	    x=270
+	    y=805
+	    width=60
+	    height=20
+	    }
+	control {
+	chan="$(P)$(R)GevStreamChannelSelector"   
+	clr=14
+	bclr=51
+	}
+	limits {
+	}
+}     
+
+"text update" {
+     object {
+	    x=335
+	    y=805
+	    width=70
+	    height=20
+	    }
+	monitor {
+		chan="$(P)$(R)GevStreamChannelSelector_RBV"   
+		clr=54
+		bclr=4
+		}
+	limits {
+	}
+}     
+
+text {
+     object {
+	    x=160
+	    y=830
+	    width=100
+	    height=20
+	    }
+	"basic attribute" {
+		clr=14
+	}
+	textix="GevSCCFGUnconditionalStreaming"
+	align="horiz. right"
+}    
+
+menu {
+	object {
+	    x=270
+	    y=830
+	    width=125
+	    height=20
+	    }
+	control {
+		chan="$(P)$(R)GevSCCFGUnconditionalStreaming"
+		clr=14
+		bclr=51
+	}
+}    
+ 
+        

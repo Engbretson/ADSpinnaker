@@ -18,7 +18,7 @@ LIB_INSTALLS    += ../os/win32-x86/Spinnakerd_v140.lib
 else ifeq (linux-x86_64, $(findstring linux-x86_64, $(T_A)))
 LIB_INSTALLS    += ../os/linux-x86_64/libSpinnaker.so
 LIB_INSTALLS    += ../os/linux-x86_64/libSpinnaker.so.1
-LIB_INSTALLS    += ../os/linux-x86_64/libSpinnaker.so.1.18.0.17
+LIB_INSTALLS    += ../os/linux-x86_64/libSpinnaker.so.1.19.0.22
 LIB_INSTALLS    += ../os/linux-x86_64/libGenApi_gcc540_v3_0.so
 #LIB_INSTALLS    += ../os/linux-x86_64/libGCBase_gcc540_v3_0.so
 LIB_INSTALLS    += ../os/linux-x86_64/libLog_gcc540_v3_0.so

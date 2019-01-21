@@ -505,6 +505,12 @@ namespace Spinnaker
         IntType_UNKNOWN
     };
 
+    enum BufferOwnership
+    {
+        BUFFER_OWNERSHIP_SYSTEM,   /* Buffers are owned and managed by the library */
+        BUFFER_OWNERSHIP_USER      /* Buffers are owned and managed by the user */
+    };
+
     /*@}*/
 
     /*@}*/

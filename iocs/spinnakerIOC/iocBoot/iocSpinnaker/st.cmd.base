@@ -149,4 +149,10 @@ epicsThreadSleep(1.0)
 # Wait for callbacks on the property limits (DRVL, DRVH) to complete
 epicsThreadSleep(1.0)
 
+dbpf("2bmbSP1:cam1:AcquireTime.PREC", "6")
+dbpf("2bmbSP1:cam1:AcquireTime_RBV.PREC", "6")
+dbpf("2bmbSP1:cam1:AcquirePeriod.PREC", "6")
+dbpf("2bmbSP1:cam1:AcquirePeriod_RBV.PREC", "6")
+
+
 

@@ -1,5 +1,5 @@
 //=============================================================================
-// Copyright © 2017 FLIR Integrated Imaging Solutions, Inc. All Rights Reserved.
+// Copyright (c) 2001-2018 FLIR Systems, Inc. All Rights Reserved.
 //
 // This software is the confidential and proprietary information of FLIR
 // Integrated Imaging Solutions, Inc. ("Confidential Information"). You
@@ -52,6 +52,7 @@ namespace Spinnaker
         virtual InterfaceList GetInterfaces(bool updateInterface = true) = 0;
         virtual CameraList GetCameras(bool updateInterfaces = true, bool updateCameras = true) = 0;
         virtual bool UpdateCameras(bool updateInterfaces = true) = 0;
+        virtual void UpdateInterfaceList() = 0;
         virtual void RegisterInterfaceEvent(Event & evtToRegister, bool updateInterface = true) = 0;
         virtual void UnregisterInterfaceEvent(Event & evtToUnregister) = 0;
         virtual void RegisterLoggingEvent(LoggingEvent & handler) = 0;

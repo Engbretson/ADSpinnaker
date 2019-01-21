@@ -1,5 +1,5 @@
 //=============================================================================
-// Copyright © 2017 FLIR Integrated Imaging Solutions, Inc. All Rights Reserved.
+// Copyright (c) 2001-2018 FLIR Systems, Inc. All Rights Reserved.
 //
 // This software is the confidential and proprietary information of FLIR
 // Integrated Imaging Solutions, Inc. ("Confidential Information"). You
@@ -235,6 +235,12 @@ namespace Spinnaker
 		 * Visibility: Expert
 		 */
 		GenApi::IBoolean &GevDeviceIsWrongSubnet;
+
+		/**
+		 * Description: Forces the camera to be on the same subnet as its corresponding interface.
+		 * Visibility: Expert
+		 */
+		GenApi::ICommand &GevDeviceForceIP;
 
 		/**
 		 * Description: Controls and indicates if the device is operating in as a Multicast Monitor.

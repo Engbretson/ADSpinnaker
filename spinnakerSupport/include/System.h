@@ -29,9 +29,9 @@ namespace Spinnaker
 
     // Define macros for getting Spinnaker library version
 #define	FLIR_SPINNAKER_VERSION_MAJOR 1
-#define FLIR_SPINNAKER_VERSION_MINOR 18
+#define FLIR_SPINNAKER_VERSION_MINOR 19
 #define	FLIR_SPINNAKER_VERSION_TYPE 0
-#define	FLIR_SPINNAKER_VERSION_BUILD 17
+#define	FLIR_SPINNAKER_VERSION_BUILD 22
 
     /**
     * @defgroup SpinnakerClasses Spinnaker Classes
@@ -82,8 +82,11 @@ namespace Spinnaker
 
         /**
          * Returns a list of interfaces available on the system.  This call
-         * returns GigE and Usb2 and Usb3 interfaces.
+         * returns GigE and Usb2 and Usb3 interfaces. Note that on MacOS only 
+         * active GigE interfaces will be stored in the returned InterfaceList.
          *
+         * @see UpdateInterfaceList()
+         * 
          * @param updateInterface Determines whether or not UpdateInterfaceList() is called before getting available interfaces
          *
          * @return An InterfaceList object that contains a list of all interfaces.
@@ -114,7 +117,7 @@ namespace Spinnaker
         virtual CameraList GetCameras(bool updateInterfaces = true, bool updateCameras = true);
 
         /**
-         * Updates the list of cameras on the system.  Note that System::GetCameras()
+         * Updates the list of cameras on the system. Note that System::GetCameras()
          * internally calls UpdateCameras() for each interface it enumerates.  If the list
          * changed between this call and the last time UpdateCameras was called then the return
          * value will be true, otherwise it is false.
@@ -127,6 +130,14 @@ namespace Spinnaker
          * @return True if cameras changed on interface and false otherwise.
          */
         virtual bool UpdateCameras(bool updateInterfaces = true);
+
+        /**
+         * Updates the list of interfaces on the system. If desired, local copies 
+         * of InterfaceList should be updated by calling GetInterfaces.
+         *
+         * @see GetInterfaces()
+         */
+        virtual void UpdateInterfaceList();
 
         /**
          * Registers events for all available interfaces that are found on the system

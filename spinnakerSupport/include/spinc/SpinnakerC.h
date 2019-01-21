@@ -1,5 +1,5 @@
 //=============================================================================
-// Copyright © 2017 FLIR Integrated Imaging Solutions, Inc. All Rights Reserved.
+// Copyright (c) 2001-2018 FLIR Systems, Inc. All Rights Reserved.
 //
 // This software is the confidential and proprietary information of FLIR
 // Integrated Imaging Solutions, Inc. ("Confidential Information"). You
@@ -1037,6 +1037,14 @@ extern "C" {
     * @return spinError The error code; returns SPINNAKER_ERR_SUCCESS (or 0) for no error
     */
     SPINNAKERC_API spinCameraDiscoverMaxPacketSize(spinCamera hCamera, unsigned int* pMaxPacketSize);
+    /*@}*/
+
+    /**
+    * Forces the camera to be on the same subnet as its corresponding interface.
+    * 
+    * @return spinError The error code; returns SPINNAKER_ERR_SUCCESS (or 0) for no error
+    */
+    SPINNAKERC_API spinCameraForceIP();
     /*@}*/
 
     /**

@@ -1,5 +1,5 @@
 //=============================================================================
-// Copyright © 2017 FLIR Integrated Imaging Solutions, Inc. All Rights Reserved.
+// Copyright (c) 2001-2018 FLIR Systems, Inc. All Rights Reserved.
 //
 // This software is the confidential and proprietary information of FLIR
 // Integrated Imaging Solutions, Inc. ("Confidential Information"). You
@@ -145,6 +145,14 @@ typedef enum _spinTLPOEStatusEnums	/*!< Reports and controls the interface's pow
 	POEStatus_PowerOn,/*!< Power is On*/
 	NUMPOESTATUS
 } spinTLPOEStatusEnums;
+
+typedef enum _spinTLFilterDriverStatusEnums	/*!< Reports whether FLIR Light Weight Filter Driver is enabled or not.*/
+{
+	FilterDriverStatus_NotSupported,/*!< Not Supported*/
+	FilterDriverStatus_Disabled,/*!< FLIR Light Weight Filter Driver is disabled*/
+	FilterDriverStatus_Enabled,/*!< FLIR Light Weight Filter Driver is enabled*/
+	NUMFILTERDRIVERSTATUS
+} spinTLFilterDriverStatusEnums;
 
 /*@}*/
 

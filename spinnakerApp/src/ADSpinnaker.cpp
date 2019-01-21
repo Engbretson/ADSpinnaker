@@ -1071,6 +1071,12 @@ asynStatus ADSpinnaker::connectCamera(void)
     printf("LineFormat was = %d \n",LineFormat);
     int UserOutputSelector = pCamera_->UserOutputSelector.GetValue();
     printf("UserOutputSelector was = %d \n",UserOutputSelector);
+//    int TriggerActivation = pCamera_->TriggerActivation.GetValue();
+//    printf("TriggerActivation was = %d \n",TriggerActivation);
+//    printf("TriggerActivation was = %d, resetting to 1 \n",TriggerActivation);
+//    pCamera_->TriggerActivation.SetIntValue(1);
+
+
     printf("\n\n\n");
 
     system_ = System::GetInstance();
