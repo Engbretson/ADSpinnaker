@@ -1,0 +1,9 @@
+
+
+export EPICS_DISPLAY_PATH=/xorApps/epics/synApps_6_0/ADSpinnaker/spinnakerApp/op/adl:/APSshare/epics/AD-3-4/support/areaDetector-R3-4/ADCore/ADApp/op/adl
+
+
+medm -x -macro "P=2bmbSP1:, R=cam1:" ADSpinnaker.adl 
+
+
+
