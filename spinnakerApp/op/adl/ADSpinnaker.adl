@@ -1,7 +1,7 @@
 
 file {
-	name="C:\Users\mark\Desktop\ADSpinnaker\spinnakerApp\op\adl\tmp\ADSpinnaker.adl"
-	version=030109
+	name="/net/s2dserv/xorApps/epics/synApps_6_0/ADSpinnaker/spinnakerApp/op/adl/ADSpinnaker.adl"
+	version=030111
 }
 display {
 	object {
@@ -2214,6 +2214,22 @@ menu {
 	}
 	monitor {
 		chan="$(P)$(R)TriggerActivation_RBV"
+		clr=54
+		bclr=4
+	}
+	format="string"
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=950
+		y=486
+		width=110
+		height=18
+	}
+	monitor {
+		chan="$(P)$(R)ExposureMode_RBV"
 		clr=54
 		bclr=4
 	}
