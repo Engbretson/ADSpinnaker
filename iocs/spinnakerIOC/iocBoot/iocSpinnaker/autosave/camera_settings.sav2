@@ -1,11 +1,11 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 190121-162659
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 190207-104915
 2bmbSP1:cam1:Acquire 0
 2bmbSP1:cam1:AcquireBusy 0
-2bmbSP1:cam1:AcquirePeriod 0.006130424
-2bmbSP1:cam1:AcquirePeriod_RBV 0.006130424
+2bmbSP1:cam1:AcquirePeriod 0.00616272
+2bmbSP1:cam1:AcquirePeriod_RBV 0.00616272
 2bmbSP1:cam1:Acquire_RBV 0
-2bmbSP1:cam1:AcquireTime 0.0001
-2bmbSP1:cam1:AcquireTimeAuto 1
+2bmbSP1:cam1:AcquireTime 0.01
+2bmbSP1:cam1:AcquireTimeAuto 0
 2bmbSP1:cam1:AcquireTimeAuto_RBV 0
 2bmbSP1:cam1:AcquireTime_DRVH 30
 2bmbSP1:cam1:AcquireTime_DRVL 3e-06
@@ -13,12 +13,12 @@
 2bmbSP1:cam1:AcquireTime_LOPR 3e-06
 2bmbSP1:cam1:AcquireTime_MAX 30
 2bmbSP1:cam1:AcquireTime_MIN 3e-06
-2bmbSP1:cam1:AcquireTime_RBV 0.0001
+2bmbSP1:cam1:AcquireTime_RBV 0.01
 2bmbSP1:cam1:ADCoreVersion_RBV 3.4.0
 2bmbSP1:cam1:ArrayCallbacks 1
 2bmbSP1:cam1:ArrayCallbacks_RBV 1
 2bmbSP1:cam1:ArrayCounter 0
-2bmbSP1:cam1:ArrayCounter_RBV 3005
+2bmbSP1:cam1:ArrayCounter_RBV 30820
 2bmbSP1:cam1:ArrayRate_RBV 0
 2bmbSP1:cam1:ArraySize0 0
 2bmbSP1:cam1:ArraySize0_RBV 0
@@ -102,20 +102,20 @@
 2bmbSP1:cam1:FailedBufferCount 0
 2bmbSP1:cam1:FailedPacketCount 0
 2bmbSP1:cam1:FirmwareVersion_RBV 1710.0.0.0
-2bmbSP1:cam1:FrameRate 163.12085428349
+2bmbSP1:cam1:FrameRate 162.2660124101
 2bmbSP1:cam1:FrameRateAuto 0
 2bmbSP1:cam1:FrameRateAuto_RBV 0
 2bmbSP1:cam1:FrameRate_DRVH 163.12085428349
 2bmbSP1:cam1:FrameRate_DRVL 1
-2bmbSP1:cam1:FrameRateEnable 1
-2bmbSP1:cam1:FrameRateEnable_RBV 1
+2bmbSP1:cam1:FrameRateEnable 0
+2bmbSP1:cam1:FrameRateEnable_RBV 0
 2bmbSP1:cam1:FrameRate_HOPR 163.12085428349
 2bmbSP1:cam1:FrameRate_LOPR 1
 2bmbSP1:cam1:FrameRate_MAX 163.12085428349
 2bmbSP1:cam1:FrameRate_MIN 1
-2bmbSP1:cam1:FrameRate_RBV 163.12085428349
-2bmbSP1:cam1:FrameType 0
-2bmbSP1:cam1:FrameType_RBV 0
+2bmbSP1:cam1:FrameRate_RBV 162.2660124101
+2bmbSP1:cam1:FrameType 1
+2bmbSP1:cam1:FrameType_RBV 1
 2bmbSP1:cam1:Gain 0
 2bmbSP1:cam1:GainAuto 0
 2bmbSP1:cam1:GainAuto_RBV 0
@@ -136,8 +136,8 @@
 2bmbSP1:cam1:Gamma_MAX 0
 2bmbSP1:cam1:Gamma_MIN 0
 2bmbSP1:cam1:Gamma_RBV 1
-2bmbSP1:cam1:ImageMode 2
-2bmbSP1:cam1:ImageMode_RBV 2
+2bmbSP1:cam1:ImageMode 0
+2bmbSP1:cam1:ImageMode_RBV 0
 2bmbSP1:cam1:Manufacturer_RBV FLIR
 2bmbSP1:cam1:MaxSizeX_RBV 2448
 2bmbSP1:cam1:MaxSizeY_RBV 2048
@@ -146,25 +146,25 @@
 2bmbSP1:cam1:MinY 0
 2bmbSP1:cam1:MinY_RBV 0
 2bmbSP1:cam1:Model_RBV Oryx ORX-10G-51S5M
-2bmbSP1:cam1:NDAttributesFile @array@ { "109" "111" "110" "97" "68" "101" "116" "101" "99" "116" "111" "114" "65" "116" "116" "114" "105" "98" "117" "116" "101" "115" "46" "120" "109" "108" "0" }
+2bmbSP1:cam1:NDAttributesFile @array@ { "102" "108" "105" "114" "50" "98" "109" "98" "68" "101" "116" "101" "99" "116" "111" "114" "65" "116" "116" "114" "105" "98" "117" "116" "101" "115" "46" "120" "109" "108" "0" }
 2bmbSP1:cam1:NDAttributesMacros 0
 2bmbSP1:cam1:NDAttributesStatus 0
 2bmbSP1:cam1:NDimensions 0
 2bmbSP1:cam1:NDimensions_RBV 0
-2bmbSP1:cam1:NumExposures 720
+2bmbSP1:cam1:NumExposures 1500
 2bmbSP1:cam1:NumExposuresCounter_RBV 0
-2bmbSP1:cam1:NumExposures_RBV 720
-2bmbSP1:cam1:NumImages 720
-2bmbSP1:cam1:NumImagesCounter_RBV 769
-2bmbSP1:cam1:NumImages_RBV 2
+2bmbSP1:cam1:NumExposures_RBV 1500
+2bmbSP1:cam1:NumImages 20
+2bmbSP1:cam1:NumImagesCounter_RBV 1
+2bmbSP1:cam1:NumImages_RBV 20
 2bmbSP1:cam1:NumQueuedArrays 0
 2bmbSP1:cam1:PixelFormat 0
 2bmbSP1:cam1:PixelFormat_RBV 0
-2bmbSP1:cam1:PoolAllocBuffers 19
-2bmbSP1:cam1:PoolFreeBuffers 17
+2bmbSP1:cam1:PoolAllocBuffers 16
+2bmbSP1:cam1:PoolFreeBuffers 15
 2bmbSP1:cam1:PoolMaxMem 0
-2bmbSP1:cam1:PoolUsedBuffers 2
-2bmbSP1:cam1:PoolUsedMem 73.421875
+2bmbSP1:cam1:PoolUsedBuffers 1
+2bmbSP1:cam1:PoolUsedMem 81.28125
 2bmbSP1:cam1:PortName_RBV SP1
 2bmbSP1:cam1:ReadStatus 1
 2bmbSP1:cam1:ReverseX 0
@@ -181,7 +181,7 @@
 2bmbSP1:cam1:Saturation_MAX 0
 2bmbSP1:cam1:Saturation_MIN 0
 2bmbSP1:cam1:Saturation_RBV 0.1
-2bmbSP1:cam1:SDKVersion_RBV 1.19.0
+2bmbSP1:cam1:SDKVersion_RBV 1.20.0
 2bmbSP1:cam1:SerialNumber_RBV 18092474
 2bmbSP1:cam1:SetAcquireBusy 0
 2bmbSP1:cam1:Sharpening 0
@@ -214,20 +214,20 @@
 2bmbSP1:cam1:SizeX_RBV 2448
 2bmbSP1:cam1:SizeY 2048
 2bmbSP1:cam1:SizeY_RBV 2048
-2bmbSP1:cam1:SoftwareTrigger 1
+2bmbSP1:cam1:SoftwareTrigger 0
 2bmbSP1:cam1:StatusMessage_RBV 0
 2bmbSP1:cam1:StringFromServer_RBV @array@ { "60" "110" "111" "116" "32" "117" "115" "101" "100" "32" "98" "121" "32" "100" "114" "105" "118" "101" "114" "62" "0" }
 2bmbSP1:cam1:StringToServer_RBV @array@ { "60" "110" "111" "116" "32" "117" "115" "101" "100" "32" "98" "121" "32" "100" "114" "105" "118" "101" "114" "62" "0" }
 2bmbSP1:cam1:Temperature 25
-2bmbSP1:cam1:TemperatureActual 47
+2bmbSP1:cam1:TemperatureActual 47.625
 2bmbSP1:cam1:Temperature_RBV 25
 2bmbSP1:cam1:TimeRemaining_RBV 0
 2bmbSP1:cam1:TimeStampMode 0
 2bmbSP1:cam1:TimeStampMode_RBV 0
 2bmbSP1:cam1:TimeStamp_RBV 0
 2bmbSP1:cam1:TransmitFailureCount 0
-2bmbSP1:cam1:TriggerActivation 1
-2bmbSP1:cam1:TriggerActivation_RBV 1
+2bmbSP1:cam1:TriggerActivation 3
+2bmbSP1:cam1:TriggerActivation_RBV 3
 2bmbSP1:cam1:TriggerDelay 1e-05
 2bmbSP1:cam1:TriggerDelay_DRVH 0.06552
 2bmbSP1:cam1:TriggerDelay_DRVL 7e-06
