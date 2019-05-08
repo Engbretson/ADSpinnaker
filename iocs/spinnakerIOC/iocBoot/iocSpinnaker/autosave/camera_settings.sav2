@@ -1,10 +1,10 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 190424-142808
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 190508-085613
 2bmbSP1:cam1:Acquire 0
 2bmbSP1:cam1:AcquireBusy 0
-2bmbSP1:cam1:AcquirePeriod 0.006130424
-2bmbSP1:cam1:AcquirePeriod_RBV 0.006130424
+2bmbSP1:cam1:AcquirePeriod 0.00616272
+2bmbSP1:cam1:AcquirePeriod_RBV 0.00616272
 2bmbSP1:cam1:Acquire_RBV 0
-2bmbSP1:cam1:AcquireTime 0.002
+2bmbSP1:cam1:AcquireTime 0.1
 2bmbSP1:cam1:AcquireTimeAuto 0
 2bmbSP1:cam1:AcquireTimeAuto_RBV 0
 2bmbSP1:cam1:AcquireTime_DRVH 30
@@ -13,12 +13,12 @@
 2bmbSP1:cam1:AcquireTime_LOPR 3e-06
 2bmbSP1:cam1:AcquireTime_MAX 30
 2bmbSP1:cam1:AcquireTime_MIN 3e-06
-2bmbSP1:cam1:AcquireTime_RBV 0.001999
-2bmbSP1:cam1:ADCoreVersion_RBV 3.4.0
+2bmbSP1:cam1:AcquireTime_RBV 0.100001
+2bmbSP1:cam1:ADCoreVersion_RBV 3.5.0
 2bmbSP1:cam1:ArrayCallbacks 1
 2bmbSP1:cam1:ArrayCallbacks_RBV 1
 2bmbSP1:cam1:ArrayCounter 0
-2bmbSP1:cam1:ArrayCounter_RBV 318130
+2bmbSP1:cam1:ArrayCounter_RBV 0
 2bmbSP1:cam1:ArrayRate_RBV 0
 2bmbSP1:cam1:ArraySize0 0
 2bmbSP1:cam1:ArraySize0_RBV 0
@@ -40,9 +40,9 @@
 2bmbSP1:cam1:ArraySize8_RBV 0
 2bmbSP1:cam1:ArraySize9 0
 2bmbSP1:cam1:ArraySize9_RBV 0
-2bmbSP1:cam1:ArraySize_RBV 5013504
-2bmbSP1:cam1:ArraySizeX_RBV 2448
-2bmbSP1:cam1:ArraySizeY_RBV 2048
+2bmbSP1:cam1:ArraySize_RBV 0
+2bmbSP1:cam1:ArraySizeX_RBV 0
+2bmbSP1:cam1:ArraySizeY_RBV 0
 2bmbSP1:cam1:ArraySizeZ_RBV 0
 2bmbSP1:cam1:AsynIO 0
 2bmbSP1:cam1:BayerPattern_RBV 0
@@ -102,18 +102,18 @@
 2bmbSP1:cam1:FailedBufferCount 0
 2bmbSP1:cam1:FailedPacketCount 0
 2bmbSP1:cam1:FirmwareVersion_RBV 1710.0.0.0
-2bmbSP1:cam1:FrameRate 163.12085428349
+2bmbSP1:cam1:FrameRate 162.2660124101
 2bmbSP1:cam1:FrameRateAuto 0
 2bmbSP1:cam1:FrameRateAuto_RBV 0
 2bmbSP1:cam1:FrameRate_DRVH 163.12085428349
 2bmbSP1:cam1:FrameRate_DRVL 1
-2bmbSP1:cam1:FrameRateEnable 1
-2bmbSP1:cam1:FrameRateEnable_RBV 1
+2bmbSP1:cam1:FrameRateEnable 0
+2bmbSP1:cam1:FrameRateEnable_RBV 0
 2bmbSP1:cam1:FrameRate_HOPR 163.12085428349
 2bmbSP1:cam1:FrameRate_LOPR 1
 2bmbSP1:cam1:FrameRate_MAX 163.12085428349
 2bmbSP1:cam1:FrameRate_MIN 1
-2bmbSP1:cam1:FrameRate_RBV 163.12085428349
+2bmbSP1:cam1:FrameRate_RBV 162.2660124101
 2bmbSP1:cam1:FrameType 1
 2bmbSP1:cam1:FrameType_RBV 1
 2bmbSP1:cam1:Gain 0
@@ -136,8 +136,8 @@
 2bmbSP1:cam1:Gamma_MAX 0
 2bmbSP1:cam1:Gamma_MIN 0
 2bmbSP1:cam1:Gamma_RBV 1
-2bmbSP1:cam1:ImageMode 2
-2bmbSP1:cam1:ImageMode_RBV 2
+2bmbSP1:cam1:ImageMode 0
+2bmbSP1:cam1:ImageMode_RBV 0
 2bmbSP1:cam1:Manufacturer_RBV FLIR
 2bmbSP1:cam1:MaxSizeX_RBV 2448
 2bmbSP1:cam1:MaxSizeY_RBV 2048
@@ -155,16 +155,16 @@
 2bmbSP1:cam1:NumExposuresCounter_RBV 0
 2bmbSP1:cam1:NumExposures_RBV 1500
 2bmbSP1:cam1:NumImages 20
-2bmbSP1:cam1:NumImagesCounter_RBV 1905
+2bmbSP1:cam1:NumImagesCounter_RBV 0
 2bmbSP1:cam1:NumImages_RBV 20
 2bmbSP1:cam1:NumQueuedArrays 0
 2bmbSP1:cam1:PixelFormat 0
 2bmbSP1:cam1:PixelFormat_RBV 0
-2bmbSP1:cam1:PoolAllocBuffers 26
-2bmbSP1:cam1:PoolFreeBuffers 25
+2bmbSP1:cam1:PoolAllocBuffers 0
+2bmbSP1:cam1:PoolFreeBuffers 0
 2bmbSP1:cam1:PoolMaxMem 0
-2bmbSP1:cam1:PoolUsedBuffers 1
-2bmbSP1:cam1:PoolUsedMem 116.93518066406
+2bmbSP1:cam1:PoolUsedBuffers 0
+2bmbSP1:cam1:PoolUsedMem 0
 2bmbSP1:cam1:PortName_RBV SP1
 2bmbSP1:cam1:ReadStatus 1
 2bmbSP1:cam1:ReverseX 0
@@ -181,7 +181,7 @@
 2bmbSP1:cam1:Saturation_MAX 0
 2bmbSP1:cam1:Saturation_MIN 0
 2bmbSP1:cam1:Saturation_RBV 0.1
-2bmbSP1:cam1:SDKVersion_RBV 1.20.0
+2bmbSP1:cam1:SDKVersion_RBV 1.21.0
 2bmbSP1:cam1:SerialNumber_RBV 18092474
 2bmbSP1:cam1:SetAcquireBusy 0
 2bmbSP1:cam1:Sharpening 0
@@ -219,7 +219,7 @@
 2bmbSP1:cam1:StringFromServer_RBV @array@ { "60" "110" "111" "116" "32" "117" "115" "101" "100" "32" "98" "121" "32" "100" "114" "105" "118" "101" "114" "62" "0" }
 2bmbSP1:cam1:StringToServer_RBV @array@ { "60" "110" "111" "116" "32" "117" "115" "101" "100" "32" "98" "121" "32" "100" "114" "105" "118" "101" "114" "62" "0" }
 2bmbSP1:cam1:Temperature 25
-2bmbSP1:cam1:TemperatureActual 47.75
+2bmbSP1:cam1:TemperatureActual 47.375
 2bmbSP1:cam1:Temperature_RBV 25
 2bmbSP1:cam1:TimeRemaining_RBV 0
 2bmbSP1:cam1:TimeStampMode 0

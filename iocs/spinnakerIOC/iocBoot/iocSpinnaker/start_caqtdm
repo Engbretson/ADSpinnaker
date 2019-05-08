@@ -1,8 +1,8 @@
 
 
-export CAQTDM_DISPLAY_PATH=/local/epics/synApps_6_0/support/areaDetector-R3-4/ADSpinnaker/spinnakerApp/op/ui/autoconvert:/local/epics/synApps_6_0/support/areaDetector-R3-4/ADCore-R3-4/ADApp/op/ui/autoconvert
+export CAQTDM_DISPLAY_PATH=/local/epics/synApps_6_0/support/areaDetector-R3-5/ADSpinnaker/spinnakerApp/op/ui/autoconvert:/local/epics/synApps_6_0/support/areaDetector-R3-5/ADCore-R3-5/ADApp/op/ui/autoconvert
 
-/local/caqtdm-4.2.1/caQtDM_Binaries/caQtDM -x -macro "P=2bmbSP1:, R=cam1:" ADSpinnaker.ui 
+/local/caqtdm-4.2.3/caQtDM_Binaries/caQtDM -x -macro "P=2bmbSP1:, R=cam1:" ADSpinnaker.ui 
 
 
 

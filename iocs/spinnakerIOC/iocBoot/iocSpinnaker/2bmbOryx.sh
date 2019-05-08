@@ -4,7 +4,7 @@
 #
 
 # Manually set IOC_STARTUP_DIR if 2bmbPG1.sh will reside somewhere other than ioc2bmbPG1
-IOC_STARTUP_DIR=/local/epics/synApps_6_0/support/areaDetector-R3-4/ADSpinnaker/iocs/spinnakerIOC/iocBoot/iocSpinnaker
+IOC_STARTUP_DIR=/local/epics/synApps_6_0/support/areaDetector-R3-5/ADSpinnaker/iocs/spinnakerIOC/iocBoot/iocSpinnaker
 
 
 # Set EPICS_HOST_ARCH if the env var isn't already set properly for this IOC
@@ -201,7 +201,7 @@ run() {
 
 launch_medm() {
 ${ECHO}
-    /local/epics/synApps_6_0/support/areaDetector-R3-4/ADSpinnaker/iocs/spinnakerIOC/iocBoot/iocSpinnaker/start_caqtdm
+    /local/epics/synApps_6_0/support/areaDetector-R3-5/ADSpinnaker/iocs/spinnakerIOC/iocBoot/iocSpinnaker/start_caqtdm
 
 }
 

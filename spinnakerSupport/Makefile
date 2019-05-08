@@ -16,15 +16,16 @@ LIB_INSTALLS    += ../os/win32-x86/Spinnaker_v140.lib
 LIB_INSTALLS    += ../os/win32-x86/Spinnakerd_v140.lib
 
 else ifeq (linux-x86_64, $(findstring linux-x86_64, $(T_A)))
-LIB_INSTALLS    += ../os/linux-x86_64/libSpinnaker.so
-LIB_INSTALLS    += ../os/linux-x86_64/libSpinnaker.so.1
-LIB_INSTALLS    += ../os/linux-x86_64/libSpinnaker.so.1.20.0.14
-LIB_INSTALLS    += ../os/linux-x86_64/libGenApi_gcc540_v3_0.so
+LIB_INSTALLS    += ../os/linux-x86_64_21/libSpinnaker.so
+LIB_INSTALLS    += ../os/linux-x86_64_21/libSpinnaker.so.1
+#LIB_INSTALLS    += ../os/linux-x86_64/libSpinnaker.so.1.20.0.14
+LIB_INSTALLS    += ../os/linux-x86_64_21/libSpinnaker.so.1.21.0.61
+LIB_INSTALLS    += ../os/linux-x86_64_21/libGenApi_gcc540_v3_0.so
 #LIB_INSTALLS    += ../os/linux-x86_64/libGCBase_gcc540_v3_0.so
-LIB_INSTALLS    += ../os/linux-x86_64/libLog_gcc540_v3_0.so
-LIB_INSTALLS    += ../os/linux-x86_64/libMathParser_gcc540_v3_0.so
-LIB_INSTALLS    += ../os/linux-x86_64/libNodeMapData_gcc540_v3_0.so
-LIB_INSTALLS    += ../os/linux-x86_64/libXmlParser_gcc540_v3_0.so
+LIB_INSTALLS    += ../os/linux-x86_64_21/libLog_gcc540_v3_0.so
+LIB_INSTALLS    += ../os/linux-x86_64_21/libMathParser_gcc540_v3_0.so
+LIB_INSTALLS    += ../os/linux-x86_64_21/libNodeMapData_gcc540_v3_0.so
+LIB_INSTALLS    += ../os/linux-x86_64_21/libXmlParser_gcc540_v3_0.so
 #LIB_INSTALLS    += ../os/linux-x86_64/libptgreyvideoencoder.so
 #LIB_INSTALLS    += ../os/linux-x86_64/libptgreyvideoencoder.so.1
 #LIB_INSTALLS    += ../os/linux-x86_64/libptgreyvideoencoder.so.1.10.0.31

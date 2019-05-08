@@ -1192,6 +1192,7 @@ void ADSpinnaker::imageGrabTask()
 
         // See if acquisition is done if we are in single or multiple mode
         if (( STOP_ME == 1) || (imageMode == ADImageSingle) || ((imageMode == ADImageMultiple) && (numImagesCounter >= numImages))) {
+//       if (( acquire ) || (imageMode == ADImageSingle) || ((imageMode == ADImageMultiple) && (numImagesCounter >= numImages))) {
             setIntegerParam(ADStatus, ADStatusIdle);
 	    STOP_ME = 0;
             status = stopCapture();
